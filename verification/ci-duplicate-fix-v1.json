@@ -1,0 +1,99 @@
+{
+  "schema": "FTV-CI-duplicate-demo-fix-v1",
+  "checked_utc": "2026-10-31T03:09:48.141724+00:00",
+  "canonical_workflow": "/Users/raghav/Documents/Codex/2026-10-25/here-s-ther-eview-i-recierved/delivery/code-release-v1/financial-table-verifier-release/.github/workflows/ci.yml",
+  "before_ci_sha256": "dffd6b140d8e58838ddbc484ef668c26c275229d6a85e3040c8fe406480a6629",
+  "after_ci_sha256": "dee2066c2c1427562cbe8c50a4b1dfc7a50e4a482171dd2567c9e3ec89df86bd",
+  "removed_only_exact_last_three_duplicate_run_steps": true,
+  "demo_output_directories": [
+    "/tmp/ftv-ci-demo",
+    "/tmp/ftv-ci-paper-demo",
+    "/tmp/ftv-ci-installed-paper-demo"
+  ],
+  "source_guard_sha256_before": {
+    "demo.py": "0697fd5f85c619f580adeafe3c217fff2790ce4d889775c846f2736b6fd51f16",
+    "paper.py": "6e95831d42f66372942498c2cb87a35d9ed38416b5c2cdbff4f0f7e738eb8b6e"
+  },
+  "public_CI_run_reported_by_root": "41162799854; all matrix checks through installed wheel passed, duplicate final demo failed",
+  "change_scope": "Removed only final3duplicate run steps; original initial tests/demos/paper tests/wheel/install/arbitrarycwd steps unchanged.",
+  "local_simulation": {
+    "temporary_copy": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/source",
+    "minimal_environment_without_API_key": true,
+    "offline_installs_no_index": true,
+    "all_required_sequence_steps_passed": true,
+    "unit_tests": 85,
+    "frozen_scientific_tests": 129,
+    "unique_demo_destinations": [
+      "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/ci-json-demo",
+      "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/ci-paper-demo",
+      "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/ci-installed-paper-demo"
+    ],
+    "nonempty_demo_guard_still_rejects_existing_output": true,
+    "steps": [
+      {
+        "name": "create-venv",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/create-venv.log"
+      },
+      {
+        "name": "editable-install",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/editable-install.log"
+      },
+      {
+        "name": "unit-tests",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/unit-tests.log"
+      },
+      {
+        "name": "json-demo",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/json-demo.log"
+      },
+      {
+        "name": "paper-info",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/paper-info.log"
+      },
+      {
+        "name": "paper-demo",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/paper-demo.log"
+      },
+      {
+        "name": "paper-tests",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/paper-tests.log"
+      },
+      {
+        "name": "build-wheel",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/build-wheel.log"
+      },
+      {
+        "name": "install-wheel",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/install-wheel.log"
+      },
+      {
+        "name": "installed-paper-info",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/installed-paper-info.log"
+      },
+      {
+        "name": "installed-paper-demo",
+        "returncode": 0,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/installed-paper-demo.log"
+      },
+      {
+        "name": "nonempty-demo-still-refused",
+        "returncode": 1,
+        "log": "/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/ftv-ci-duplicate-fix-r02k4gqm/logs/nonempty-demo-still-refused.log"
+      }
+    ]
+  },
+  "no_application_source_or_nonempty_guard_change": true,
+  "paid_requests": 0,
+  "Desktop_git_or_push_actions": false,
+  "RELEASE_MANIFEST_requires_root_refresh_for_new_CI_hash": true
+}

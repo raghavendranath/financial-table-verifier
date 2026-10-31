@@ -24,6 +24,3 @@ jobs:
       - run: python -m pip wheel --no-deps . --wheel-dir dist
       - run: python -m pip install --force-reinstall --no-deps dist/*.whl
       - run: cd /tmp && ftv paper-info && ftv paper-demo --output /tmp/ftv-ci-installed-paper-demo
-      - run: ftv paper-info
-      - run: ftv paper-tests
-      - run: ftv paper-demo --output /tmp/ftv-ci-paper-demo

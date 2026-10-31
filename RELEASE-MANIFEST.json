@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 982,
-      "sha256": "dffd6b140d8e58838ddbc484ef668c26c275229d6a85e3040c8fe406480a6629"
+      "bytes": 865,
+      "sha256": "dee2066c2c1427562cbe8c50a4b1dfc7a50e4a482171dd2567c9e3ec89df86bd"
     },
     {
       "path": ".gitignore",
@@ -544,6 +544,11 @@
       "path": "tests/test_verifier.py",
       "bytes": 42828,
       "sha256": "9bc9213fc4d89dec7572c564374b17d9f03e6049b972f7332803c4779f8c5d79"
+    },
+    {
+      "path": "verification/ci-duplicate-fix-v1.json",
+      "bytes": 4441,
+      "sha256": "433c3380c8fbd2650ca0c99ae37982aece92aaefd65020042829e4edb8b70282"
     },
     {
       "path": "verification/frozen-paper-tests.log",
