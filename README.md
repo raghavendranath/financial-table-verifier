@@ -111,6 +111,13 @@ The primary CSV method is included. Optional ten-report HTML/TEDS scoring is not
 as a public runtime dependency; its original third-party files remain in the study
 archive with their notices. It is separate from the paper's primary CSV evaluation.
 
+## Study companion
+
+The [source-only study companion](research/study-artifacts/README.md) contains the
+50-report accession/PDF-hash manifest, 48 actual prompt/schema pairs and the fixed
+reference populations. Its README explains annotation, provenance and reuse limits.
+It is separate from the software runtime and synthetic demonstrations.
+
 ## License
 
 Our code is available under the [MIT License](LICENSE). Installed dependencies retain

@@ -1,14 +1,11 @@
-CODE AVAILABILITY WORDING FOR THE PAPER
+CODE AND STUDY-COMPANION AVAILABILITY
 
-Before publication of the repository contents:
-Extraction and evaluation code is prepared for release at
-https://github.com/raghavendranath/financial-table-verifier.
+Code is public at https://github.com/raghavendranath/financial-table-verifier.
+Commit96d52d60a1fa7d8e9100828bb2c03c98f1adaa47 passed the tests workflow.
 
-After you publish the code and confirm the public URL works:
-Extraction and evaluation code is available at
-https://github.com/raghavendranath/financial-table-verifier
-(version 0.2.0rc1; cite the actual release tag or commit).
-
-The current manuscript accurately says code/reference files are prepared for
-release. Do not describe private study/billing archives as public. The repository
-is the code release; the full private paper archive is a separate collection.
+The new research/study-artifacts directory is a prepared source-only companion:
+50filing identifiers/PDFhashes,48generatedprompt/schema pairs and source references.
+Its public availability begins only when the author pushes a commit containing it.
+Until then, the paper accurately says the companion is prepared for release.
+After publication, that sentence may be updated to cite the actual data commit.
+The full private study/billing archive is separate and is not a public artifact.

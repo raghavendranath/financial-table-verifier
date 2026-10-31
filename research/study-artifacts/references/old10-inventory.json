@@ -1,0 +1,1007 @@
+{
+  "version": "old10-complete-page-source-inventory-draft-v3",
+  "source_only": true,
+  "prediction_inputs_used": false,
+  "status": "DRAFT source coordinate projection; independent review pending; all42 whole-source-page boundary contact views completed",
+  "source_files": {
+    "study://workspace/work/reconstruction-v1/csv-evaluation-v1/target-declarations.json": "7351b61782d979aec3b9ae6c93688d4c00874ed65bae0e40b25783b37320c6ed",
+    "study://workspace/work/reconstruction-v1/accounting-reference-v1/fact-bindings.json": "bcf758ce43b0f9284873861d67be88ca48fc6e408b279c368129e03367e9ab42",
+    "study://workspace/work/reconstruction-v1/accounting-reference-v1/eps-primary-ledgers.json": "b9c88655bfc451ee0f29a113e8f95a9e9e5da9ab35ddf10e9797bcc13a7fec68",
+    "study://workspace/work/reconstruction-v1/accounting-reference-v1/retained-earnings-primary-ledgers.json": "d08c8bf5dce921675f2f9e60ee04932f9d6f48c387cf3633dd50e5cd04d0d4f7",
+    "study://workspace/work/reconstruction-v1/accounting-reference-v1/eps-current-quarter-supplement-ledgers.json": "8bd2a62f9e18979749f27e77b2eb0831f4e37d143a68a838f72103e3bcbccc55"
+  },
+  "pages": [
+    {
+      "document_id": "1399520-0001558370-23-008139",
+      "page": 4,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1399520-0001558370-23-008139",
+          "page": 4,
+          "ordinal": 0,
+          "table_id": "p4-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            40
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/08-004.json"
+        }
+      ]
+    },
+    {
+      "document_id": "1399520-0001558370-23-008139",
+      "page": 6,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1399520-0001558370-23-008139",
+          "page": 6,
+          "ordinal": 0,
+          "table_id": "p6-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            33
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/08-006.json"
+        }
+      ]
+    },
+    {
+      "document_id": "1399520-0001558370-23-008139",
+      "page": 7,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1399520-0001558370-23-008139",
+          "page": 7,
+          "ordinal": 0,
+          "table_id": "p7-t0",
+          "numeric_columns": 9,
+          "line_range": [
+            9,
+            25
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "1399520-0001558370-23-008139",
+      "page": 18,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1399520-0001558370-23-008139",
+          "page": 18,
+          "ordinal": 0,
+          "table_id": "p18-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            6,
+            11
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "1820302-0001628280-24-047906",
+      "page": 6,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1820302-0001628280-24-047906",
+          "page": 6,
+          "ordinal": 0,
+          "table_id": "p6-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            40
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/06-006.json"
+        }
+      ]
+    },
+    {
+      "document_id": "1820302-0001628280-24-047906",
+      "page": 7,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1820302-0001628280-24-047906",
+          "page": 7,
+          "ordinal": 0,
+          "table_id": "p7-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            0,
+            31
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/06-007.json"
+        }
+      ]
+    },
+    {
+      "document_id": "1820302-0001628280-24-047906",
+      "page": 9,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1820302-0001628280-24-047906",
+          "page": 9,
+          "ordinal": 0,
+          "table_id": "p9-t0",
+          "numeric_columns": 10,
+          "line_range": [
+            19,
+            48
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "1820302-0001628280-24-047906",
+      "page": 31,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "1820302-0001628280-24-047906",
+          "page": 31,
+          "ordinal": 0,
+          "table_id": "p31-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            23,
+            28
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "1820302-0001628280-24-047906",
+          "page": 31,
+          "ordinal": 1,
+          "table_id": "p31-t1",
+          "numeric_columns": 1,
+          "line_range": [
+            38,
+            43
+          ],
+          "family": "antidilutive_shares",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "33488-0001437749-24-010066",
+      "page": 41,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "33488-0001437749-24-010066",
+          "page": 41,
+          "ordinal": 0,
+          "table_id": "p41-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            38
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/00-041.json"
+        }
+      ]
+    },
+    {
+      "document_id": "33488-0001437749-24-010066",
+      "page": 42,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "33488-0001437749-24-010066",
+          "page": 42,
+          "ordinal": 0,
+          "table_id": "p42-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            0,
+            16
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/00-042.json"
+        }
+      ]
+    },
+    {
+      "document_id": "33488-0001437749-24-010066",
+      "page": 43,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "33488-0001437749-24-010066",
+          "page": 43,
+          "ordinal": 0,
+          "table_id": "p43-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            4,
+            25
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "33488-0001437749-24-010066",
+      "page": 56,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "33488-0001437749-24-010066",
+          "page": 56,
+          "ordinal": 0,
+          "table_id": "p56-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            3,
+            10
+          ],
+          "family": "debt",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "33488-0001437749-24-010066",
+          "page": 56,
+          "ordinal": 1,
+          "table_id": "p56-t1",
+          "numeric_columns": 3,
+          "line_range": [
+            16,
+            19
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "7623-0001437749-23-019854",
+      "page": 3,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 3,
+          "ordinal": 0,
+          "table_id": "p3-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            38
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/05-003.json"
+        }
+      ]
+    },
+    {
+      "document_id": "7623-0001437749-23-019854",
+      "page": 4,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 4,
+          "ordinal": 0,
+          "table_id": "p4-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            0,
+            17
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/05-004.json"
+        }
+      ]
+    },
+    {
+      "document_id": "7623-0001437749-23-019854",
+      "page": 5,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 5,
+          "ordinal": 0,
+          "table_id": "p5-t0",
+          "numeric_columns": 7,
+          "line_range": [
+            7,
+            11
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 5,
+          "ordinal": 1,
+          "table_id": "p5-t1",
+          "numeric_columns": 7,
+          "line_range": [
+            15,
+            18
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "7623-0001437749-23-019854",
+      "page": 10,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 10,
+          "ordinal": 0,
+          "table_id": "p10-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            4,
+            12
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 10,
+          "ordinal": 1,
+          "table_id": "p10-t1",
+          "numeric_columns": 2,
+          "line_range": [
+            16,
+            24
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "7623-0001437749-23-019854",
+          "page": 10,
+          "ordinal": 2,
+          "table_id": "p10-t2",
+          "numeric_columns": 2,
+          "line_range": [
+            30,
+            35
+          ],
+          "family": "inventory",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+      "page": 4,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+          "page": 4,
+          "ordinal": 0,
+          "table_id": "p4-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            34
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/07-004.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+      "page": 5,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+          "page": 5,
+          "ordinal": 0,
+          "table_id": "p5-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            0,
+            28
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/07-005.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+      "page": 8,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+          "page": 8,
+          "ordinal": 0,
+          "table_id": "p8-t0",
+          "numeric_columns": 8,
+          "line_range": [
+            18,
+            42
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+      "page": 30,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+          "page": 30,
+          "ordinal": 0,
+          "table_id": "p30-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            6,
+            18
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+      "page": 6,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 6,
+          "ordinal": 0,
+          "table_id": "p6-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            21
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/09-006.json"
+        }
+      ]
+    },
+    {
+      "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+      "page": 7,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 7,
+          "ordinal": 0,
+          "table_id": "p7-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            32
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/09-007.json"
+        }
+      ]
+    },
+    {
+      "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+      "page": 8,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 8,
+          "ordinal": 0,
+          "table_id": "p8-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            0,
+            25
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/09-008.json"
+        }
+      ]
+    },
+    {
+      "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+      "page": 11,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 11,
+          "ordinal": 0,
+          "table_id": "p11-t0",
+          "numeric_columns": 8,
+          "line_range": [
+            14,
+            26
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 11,
+          "ordinal": 1,
+          "table_id": "p11-t1",
+          "numeric_columns": 8,
+          "line_range": [
+            38,
+            50
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+      "page": 28,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "AMERICANWATERWORKS_2023Q2_10Q",
+          "page": 28,
+          "ordinal": 0,
+          "table_id": "p28-t0",
+          "numeric_columns": 4,
+          "line_range": [
+            6,
+            10
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "FEDEX_2023_10K",
+      "page": 79,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 79,
+          "ordinal": 0,
+          "table_id": "p79-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            23
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/03-079.json"
+        }
+      ]
+    },
+    {
+      "document_id": "FEDEX_2023_10K",
+      "page": 80,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 80,
+          "ordinal": 0,
+          "table_id": "p80-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            26
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/03-080.json"
+        }
+      ]
+    },
+    {
+      "document_id": "FEDEX_2023_10K",
+      "page": 81,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 81,
+          "ordinal": 0,
+          "table_id": "p81-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            0,
+            26
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/03-081.json"
+        }
+      ]
+    },
+    {
+      "document_id": "FEDEX_2023_10K",
+      "page": 84,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 84,
+          "ordinal": 0,
+          "table_id": "p84-t0",
+          "numeric_columns": 6,
+          "line_range": [
+            17,
+            37
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "FEDEX_2023_10K",
+      "page": 100,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 100,
+          "ordinal": 0,
+          "table_id": "p100-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            6,
+            15
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "FEDEX_2023_10K",
+          "page": 100,
+          "ordinal": 1,
+          "table_id": "p100-t1",
+          "numeric_columns": 3,
+          "line_range": [
+            22,
+            32
+          ],
+          "family": "income_tax",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "MICROSOFT_2023_10K",
+      "page": 58,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "MICROSOFT_2023_10K",
+          "page": 58,
+          "ordinal": 0,
+          "table_id": "p58-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            0,
+            23
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/02-058.json"
+        }
+      ]
+    },
+    {
+      "document_id": "MICROSOFT_2023_10K",
+      "page": 60,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "MICROSOFT_2023_10K",
+          "page": 60,
+          "ordinal": 0,
+          "table_id": "p60-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            39
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/02-060.json"
+        }
+      ]
+    },
+    {
+      "document_id": "MICROSOFT_2023_10K",
+      "page": 62,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "MICROSOFT_2023_10K",
+          "page": 62,
+          "ordinal": 0,
+          "table_id": "p62-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            6,
+            25
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "MICROSOFT_2023_10K",
+      "page": 70,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "MICROSOFT_2023_10K",
+          "page": 70,
+          "ordinal": 0,
+          "table_id": "p70-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            26,
+            37
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ORACLE_2023_10K",
+      "page": 66,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 66,
+          "ordinal": 0,
+          "table_id": "p66-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            40
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/04-066.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ORACLE_2023_10K",
+      "page": 67,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 67,
+          "ordinal": 0,
+          "table_id": "p67-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            0,
+            30
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/04-067.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ORACLE_2023_10K",
+      "page": 69,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 69,
+          "ordinal": 0,
+          "table_id": "p69-t0",
+          "numeric_columns": 7,
+          "line_range": [
+            25,
+            60
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ORACLE_2023_10K",
+      "page": 106,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 106,
+          "ordinal": 0,
+          "table_id": "p106-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            4,
+            6
+          ],
+          "family": "revenue",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 106,
+          "ordinal": 1,
+          "table_id": "p106-t1",
+          "numeric_columns": 6,
+          "line_range": [
+            19,
+            24
+          ],
+          "family": "geographic",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "ORACLE_2023_10K",
+          "page": 106,
+          "ordinal": 2,
+          "table_id": "p106-t2",
+          "numeric_columns": 3,
+          "line_range": [
+            33,
+            39
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ULTABEAUTY_2023_10K",
+      "page": 54,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ULTABEAUTY_2023_10K",
+          "page": 54,
+          "ordinal": 0,
+          "table_id": "p54-t0",
+          "numeric_columns": 2,
+          "line_range": [
+            0,
+            35
+          ],
+          "family": "balance_sheet",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/01-054.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ULTABEAUTY_2023_10K",
+      "page": 55,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ULTABEAUTY_2023_10K",
+          "page": 55,
+          "ordinal": 0,
+          "table_id": "p55-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            0,
+            18
+          ],
+          "family": "income_statement",
+          "coordinate_system": "frozen_grid_row_indices",
+          "grid_reference": "study://workspace/work/reconstruction-v1/reference-build-v1/frozen-v1/grids/01-055.json"
+        }
+      ]
+    },
+    {
+      "document_id": "ULTABEAUTY_2023_10K",
+      "page": 58,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ULTABEAUTY_2023_10K",
+          "page": 58,
+          "ordinal": 0,
+          "table_id": "p58-t0",
+          "numeric_columns": 8,
+          "line_range": [
+            8,
+            35
+          ],
+          "family": "equity",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    },
+    {
+      "document_id": "ULTABEAUTY_2023_10K",
+      "page": 77,
+      "complete_for_page": true,
+      "tables": [
+        {
+          "document_id": "ULTABEAUTY_2023_10K",
+          "page": 77,
+          "ordinal": 0,
+          "table_id": "p77-t0",
+          "numeric_columns": 3,
+          "line_range": [
+            14,
+            21
+          ],
+          "family": "EPS_note",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        },
+        {
+          "document_id": "ULTABEAUTY_2023_10K",
+          "page": 77,
+          "ordinal": 1,
+          "table_id": "p77-t1",
+          "numeric_columns": 3,
+          "line_range": [
+            35,
+            35
+          ],
+          "family": "employee_benefit",
+          "coordinate_system": "zero_based_PDFium_cached_source_line_indices"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "FTV-clean-publication-files-v2",
+  "schema": "FTV-clean-publication-files-v3",
   "version": "0.2.0rc1",
   "license": "MIT",
   "repository": "https://github.com/raghavendranath/financial-table-verifier",
@@ -37,8 +37,8 @@
     },
     {
       "path": "PAPER-AVAILABILITY.txt",
-      "bytes": 673,
-      "sha256": "eea302db2e4c7fe3219ef30a8b81ec7fc72cff40a73418a186f74badec6d06cb"
+      "bytes": 679,
+      "sha256": "a0d2fd34c5f470ed432663c0b38782719e1163e4851b15b462f80cc50a5c5c4f"
     },
     {
       "path": "PUBLISHING.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5870,
-      "sha256": "767df6ffe6d40aca71a280f45fe8e25591ab2ecee4e6d309981142f5878f53bd"
+      "bytes": 6212,
+      "sha256": "fd210a81f76308161fffe8c8edbb0d758e5671aa09182c8a9f4d5afff1eadc79"
     },
     {
       "path": "REPOSITORY-SETUP.txt",
@@ -94,6 +94,566 @@
       "path": "requirements-tested.txt",
       "bytes": 223,
       "sha256": "7b88cc8b5c46c752ef768193514425d9d2c15d0bb93d3614b848a7cf1cbb8ef3"
+    },
+    {
+      "path": "research/study-artifacts/README.md",
+      "bytes": 5100,
+      "sha256": "b4975d03db151d7431f112e9ff4747fcc8f5ad8df18cf21983b29218079a47c9"
+    },
+    {
+      "path": "research/study-artifacts/cohort.csv",
+      "bytes": 27884,
+      "sha256": "e53a3e92e9f1239948817017ccfba00829ddfe6ea88aec27b92f840177af0755"
+    },
+    {
+      "path": "research/study-artifacts/file-inventory.json",
+      "bytes": 71381,
+      "sha256": "b82b708a011b2c98dfbe68958acaba83243ccff886fd95b5acce0ec5f6e25643"
+    },
+    {
+      "path": "research/study-artifacts/preparation-status.json",
+      "bytes": 28952,
+      "sha256": "5d2d1cb0d35317e59caef7856530a00ff5c9a08780516601393036d951cb9b55"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1009919-0001683168-24-007491/generated-prompt.json",
+      "bytes": 4450,
+      "sha256": "c0d078bccd98fe0d7752e754eb7e622ebbb91f1df5d839e77c0d77d5bf9fc659"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1009919-0001683168-24-007491/generated-schema-plan.json",
+      "bytes": 12346,
+      "sha256": "53bd2d587a609cef534cfea8558c1a9e90d8765714bb330feab62e6d2d00fb35"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1106644-0001213900-24-028731/generated-prompt.json",
+      "bytes": 2741,
+      "sha256": "fa29bf2e39c276cee64c7e452e101a7e3276a8399c517a6557b1578251fad9de"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1106644-0001213900-24-028731/generated-schema-plan.json",
+      "bytes": 9943,
+      "sha256": "855d0dbd936931f4673732f375d6cfc2f1ef3f819e17a133f524c40ae8377e93"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1163668-0001140361-24-013519/generated-prompt.json",
+      "bytes": 4727,
+      "sha256": "1ca715fa8e82209666aefe3ed04ce766f5778289b69891450f9a486c35f485da"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1163668-0001140361-24-013519/generated-schema-plan.json",
+      "bytes": 11723,
+      "sha256": "a7692b53e6fbfe2f9ae9a3faa392d04cf7f0da2c8d9e6f40f0af6b491444293b"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1232582-0001232582-24-000068/generated-prompt.json",
+      "bytes": 3277,
+      "sha256": "a3da8d77cae16cdf0364a964fa4e038cd0b32fecd12f36beb5b3328dee853e90"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1232582-0001232582-24-000068/generated-schema-plan.json",
+      "bytes": 11975,
+      "sha256": "b52c583698d0fbf3ffbad19f587ecfb7e62fad9ee7a15777d77119d84162c4e7"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1289945-0001289945-23-000049/generated-prompt.json",
+      "bytes": 3136,
+      "sha256": "95d2d3f2b0981a0800c558e9f58369f50afbc1388d9f391cda0cfc3090b6df7c"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1289945-0001289945-23-000049/generated-schema-plan.json",
+      "bytes": 13198,
+      "sha256": "92a2fe1b15d8b9383c7e7f623e314fdd6e2ca211391f3b07879dd5dd343f1ab1"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1347858-0001558370-24-004163/generated-prompt.json",
+      "bytes": 3403,
+      "sha256": "e6f791721e1dce59c2949a06dba02d9b83ab9f498a2a19c6b62c20ae594864fc"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1347858-0001558370-24-004163/generated-schema-plan.json",
+      "bytes": 11519,
+      "sha256": "2def76f0ac04bf68db02ddb8c474977c759a3a152b74803138af30489f596be3"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1394056-0000950170-24-034668/generated-prompt.json",
+      "bytes": 3773,
+      "sha256": "65e60bdba7addb66ac386b618e6ee76aadd04097243ab18067aed7d743f3bb49"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1394056-0000950170-24-034668/generated-schema-plan.json",
+      "bytes": 10026,
+      "sha256": "324dc4940ac31bdc8013e522b7904fcbe10357f015f0252061d82a423dcbbd09"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1399520-0001558370-23-008139/generated-prompt.json",
+      "bytes": 3336,
+      "sha256": "1240ae0b1509858b1a2495167f1bc002860dc2f5bccf519039e8ededf7a2c10a"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1399520-0001558370-23-008139/generated-schema-plan.json",
+      "bytes": 9505,
+      "sha256": "bd78709568f12c6e02b7f5a02629ae41b91afc2e6be037ad55a02cddbd8d9ef5"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1527753-0000950170-24-055607/generated-prompt.json",
+      "bytes": 3233,
+      "sha256": "14f6ad950ba6b6a133fadbc2f82206616fea883a385527cf2c71a6c6c594d2f9"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1527753-0000950170-24-055607/generated-schema-plan.json",
+      "bytes": 10431,
+      "sha256": "c28ec8b296108895a4fd38ac4821bf2ee10c802d916adaf6081ba5e47c7cd0e5"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1624326-0001493152-24-011172/generated-prompt.json",
+      "bytes": 4121,
+      "sha256": "8744a7a7d54fcc86486b4d1e0ad5489760f990fb0cce5b820cd4d8c4dabc3538"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1624326-0001493152-24-011172/generated-schema-plan.json",
+      "bytes": 12638,
+      "sha256": "c94f68e16fc3bee76a0372bc81152716c591215809a9d0cffb081100d0fa6fee"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1629210-0000950170-23-049730/generated-prompt.json",
+      "bytes": 2419,
+      "sha256": "968af451754ad067efd85d48469d62397831f3bfcacd8cdd2eba838570b523e6"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1629210-0000950170-23-049730/generated-schema-plan.json",
+      "bytes": 11024,
+      "sha256": "61422e12bab4c485de8d610c985278146e6396c4c2ce874f8583d027f2f47368"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1677077-0001214659-23-010076/generated-prompt.json",
+      "bytes": 4416,
+      "sha256": "3d7f6abe5b442741d869cde77ebe4d45f411226d1c35eadaaeb80f8f4956a79b"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1677077-0001214659-23-010076/generated-schema-plan.json",
+      "bytes": 13643,
+      "sha256": "915cb00e3b39c571aa40d189ad6ffd77950dc3d5921179fe1e6675ad88c9ded8"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1799011-0001493152-24-031168/generated-prompt.json",
+      "bytes": 3514,
+      "sha256": "63d25fdaa9c69cad27ebb8e15b0adad13193887da5b1007c6f5c86ea234e6041"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1799011-0001493152-24-031168/generated-schema-plan.json",
+      "bytes": 12026,
+      "sha256": "7981d66c9a21a485730c1bc9088c19f979cc271b34e929bf875cfa851fba73da"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1800315-0000950170-24-028610/generated-prompt.json",
+      "bytes": 1286,
+      "sha256": "1ba72dd099835977b26152283930940fe417391a44a9e222a9bef5968ba943a4"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1800315-0000950170-24-028610/generated-schema-plan.json",
+      "bytes": 11750,
+      "sha256": "a47455fecbf16881d1b089b76ff82552da82bee84a15a59cdb020c7739970d0f"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1814287-0001814287-24-000028/generated-prompt.json",
+      "bytes": 1371,
+      "sha256": "29655ba95074dccbb872fa42c921bf910308ac4ecb1dcae3eca8bf705c902222"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1814287-0001814287-24-000028/generated-schema-plan.json",
+      "bytes": 9980,
+      "sha256": "341586ecc70a6444398506ff4343dc5d1b4c88025c5fa381e1e669ae9d461414"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1814287-0001814287-24-000051/generated-prompt.json",
+      "bytes": 1670,
+      "sha256": "1045d9b8dcad667ac4b12bac74ec9d95b032afd644bad6715c6be7efc7b0caa5"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1814287-0001814287-24-000051/generated-schema-plan.json",
+      "bytes": 11019,
+      "sha256": "5a3da54366d2f87164fd85dd787952c97f50ac4feee8bed97247ec9764277053"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1935033-0001493152-24-040685/generated-prompt.json",
+      "bytes": 3134,
+      "sha256": "8be179a58e33dea33749f531efdc0739f02fcea7e8a319af9239910b766d5253"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1935033-0001493152-24-040685/generated-schema-plan.json",
+      "bytes": 9714,
+      "sha256": "b7dccadf84f7dbbc486b954cf8fd540b5f4e84c783d13b538a2c6eb0649bdcb3"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1937993-0001213900-24-021133/generated-prompt.json",
+      "bytes": 4622,
+      "sha256": "07b3da616e025bd2c7854923b205d4194ce6026baf79a16a0d6427deb57233a0"
+    },
+    {
+      "path": "research/study-artifacts/prompts/1937993-0001213900-24-021133/generated-schema-plan.json",
+      "bytes": 9976,
+      "sha256": "3eb2cbeefc97f6bc839c19191f2be85cc65e91236863b1f276ca326890872239"
+    },
+    {
+      "path": "research/study-artifacts/prompts/2022416-0001213900-24-073934/generated-prompt.json",
+      "bytes": 3609,
+      "sha256": "d6ce2ad9e71305f7b93bb9b18b5ea94f2f0c4843966201253c178d05612a30dc"
+    },
+    {
+      "path": "research/study-artifacts/prompts/2022416-0001213900-24-073934/generated-schema-plan.json",
+      "bytes": 11036,
+      "sha256": "756004cd669f159655cc3b755f39462f328f0d2e7fd8a5fe21fd14f3be0a4fdb"
+    },
+    {
+      "path": "research/study-artifacts/prompts/33002-0000950170-23-031470/generated-prompt.json",
+      "bytes": 5033,
+      "sha256": "8e5792201063e5542997dff4dd066380badb6f4deed3d2594cc98f6b48a5f5a8"
+    },
+    {
+      "path": "research/study-artifacts/prompts/33002-0000950170-23-031470/generated-schema-plan.json",
+      "bytes": 10241,
+      "sha256": "d17d3b761cf892b61e6ebd3374163a5c00264bb88ba30227335effc36045fdd0"
+    },
+    {
+      "path": "research/study-artifacts/prompts/33488-0001437749-24-010066/generated-prompt.json",
+      "bytes": 2775,
+      "sha256": "b5dc1f664bec4e627e2ac2a4eba9aa7d5d07c02b51a97f41c6e71f57b42ebad7"
+    },
+    {
+      "path": "research/study-artifacts/prompts/33488-0001437749-24-010066/generated-schema-plan.json",
+      "bytes": 12299,
+      "sha256": "024aac03b8855f257306ea00cd52bb4e36e7f086d9f1cac5ddb0cc53a0ecc245"
+    },
+    {
+      "path": "research/study-artifacts/prompts/3M_2023Q2_10Q/generated-prompt.json",
+      "bytes": 5157,
+      "sha256": "42ccf36c712c641b82c97f0565c55aa1e4c5770c05d19b77417024c1dbe53b08"
+    },
+    {
+      "path": "research/study-artifacts/prompts/3M_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 11784,
+      "sha256": "643258a14b0e673792df51a8e9b3d076833f6f34e82227ede10cfb6b74ceadfe"
+    },
+    {
+      "path": "research/study-artifacts/prompts/58361-0001628280-24-003010/generated-prompt.json",
+      "bytes": 3861,
+      "sha256": "b8e62f3654b12b8c0e27144396f25f946d4dd034853e185ea31b0bd334bdde2d"
+    },
+    {
+      "path": "research/study-artifacts/prompts/58361-0001628280-24-003010/generated-schema-plan.json",
+      "bytes": 14919,
+      "sha256": "0750456f093dc4524d1e9810854e4fd3b8f2b45e342cba5f543067982a1b8102"
+    },
+    {
+      "path": "research/study-artifacts/prompts/64472-0001193125-23-294347/generated-prompt.json",
+      "bytes": 3272,
+      "sha256": "c251e4dcccbef6816158ee99b8a59abc44fbfd248a02a1850fdcc027e8bbd679"
+    },
+    {
+      "path": "research/study-artifacts/prompts/64472-0001193125-23-294347/generated-schema-plan.json",
+      "bytes": 12626,
+      "sha256": "b3fef09a2e1dc9d5bfedeeb68574c26af4a9789ddfba0af170fcbb2eb041ec3a"
+    },
+    {
+      "path": "research/study-artifacts/prompts/7623-0001437749-23-019854/generated-prompt.json",
+      "bytes": 3002,
+      "sha256": "3d9a07d149a2d69d9a2488d3a917431460075e5bce6e6f7f9970cdba411af945"
+    },
+    {
+      "path": "research/study-artifacts/prompts/7623-0001437749-23-019854/generated-schema-plan.json",
+      "bytes": 13323,
+      "sha256": "f791330b4b879a05020915b8bb4bda913028da6e46fe1cf065852629918eaa9c"
+    },
+    {
+      "path": "research/study-artifacts/prompts/813298-0000950170-24-101685/generated-prompt.json",
+      "bytes": 992,
+      "sha256": "19426676eed79f45407d78cf88d26663fefca436d3300fa98d387c2a87e1c897"
+    },
+    {
+      "path": "research/study-artifacts/prompts/813298-0000950170-24-101685/generated-schema-plan.json",
+      "bytes": 12061,
+      "sha256": "9867820b36f3d198c9e92b2bf40dc31ae5302acffd690c291dae22b858bd6c39"
+    },
+    {
+      "path": "research/study-artifacts/prompts/918251-0001140361-23-029664/generated-prompt.json",
+      "bytes": 3986,
+      "sha256": "7f4e7da795d937b8e98fa7aae5fac9dbca2ca16ccd3cf6c54e6e2c1a5ac0879f"
+    },
+    {
+      "path": "research/study-artifacts/prompts/918251-0001140361-23-029664/generated-schema-plan.json",
+      "bytes": 11556,
+      "sha256": "95cecfa868688b03ea5e4a41529adf2e3d6dcaab01ff793dc7baa37531667424"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ACTIVSIONBLIZZARD_2023Q2_10Q/generated-prompt.json",
+      "bytes": 4393,
+      "sha256": "f6077c35189d8abc0bd646556dba955481ac1c517cdc520bfb988ec9d1515aef"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ACTIVSIONBLIZZARD_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 12497,
+      "sha256": "5c08745ce4c9b28c23ac6f56a0bb531242945c1836eb4a122295bd6772aae941"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMCOR_2023Q2_10Q/generated-prompt.json",
+      "bytes": 3656,
+      "sha256": "2590de3e893ad651bda680760e11faa0414c8e115d5f4a9a89ea4ea32d32c2bc"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMCOR_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 10444,
+      "sha256": "cc722e06867a7f541cf1732503a42215931499756ae852516dc7d305b8bdb951"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMCOR_2023_10K/generated-prompt.json",
+      "bytes": 3252,
+      "sha256": "ecad6f1bd0516605bf559677dcd37c3ab66763d79e4dabd610d329a3ceeb2a96"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMCOR_2023_10K/generated-schema-plan.json",
+      "bytes": 12154,
+      "sha256": "47b093a7a077d3db43cfaf20e984568b25a074cb07c34d9924c0dd5e3ab6a02a"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMERICANWATERWORKS_2023Q2_10Q/generated-prompt.json",
+      "bytes": 5077,
+      "sha256": "0008eb9941dcde52b4fb9a91f64f86b0d2ace40af29a3aebe1891b67fcedc4b5"
+    },
+    {
+      "path": "research/study-artifacts/prompts/AMERICANWATERWORKS_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 11884,
+      "sha256": "2d2e1dd5cde36161333924d52792a6690145ec1d6ff0d5f3a04a501d97538d6c"
+    },
+    {
+      "path": "research/study-artifacts/prompts/APPLE_2023Q3_10Q/generated-prompt.json",
+      "bytes": 4341,
+      "sha256": "78daab66a36f567a0531b61e8cf1d0db246e26051e990d4af7b1bb6e8aa850c3"
+    },
+    {
+      "path": "research/study-artifacts/prompts/APPLE_2023Q3_10Q/generated-schema-plan.json",
+      "bytes": 10800,
+      "sha256": "88a711edb975624aee9245d084834200d2ae31a4c50a07a64b9286a0bca5a434"
+    },
+    {
+      "path": "research/study-artifacts/prompts/BESTBUY_2023_10K/generated-prompt.json",
+      "bytes": 5531,
+      "sha256": "c65a47979fcb7930170b219329e391f77ced3c7af6744cb068592aad91a28b7c"
+    },
+    {
+      "path": "research/study-artifacts/prompts/BESTBUY_2023_10K/generated-schema-plan.json",
+      "bytes": 12201,
+      "sha256": "0509a6d333667a18687e580860c15a3fc0774433b9b3dda953fa1461c3aaf1ca"
+    },
+    {
+      "path": "research/study-artifacts/prompts/BESTBUY_2024Q2_10Q/generated-prompt.json",
+      "bytes": 3953,
+      "sha256": "645d67427fe49c9f408514049b3faf56609e82f177f04598e3ba8504b9c8c0ad"
+    },
+    {
+      "path": "research/study-artifacts/prompts/BESTBUY_2024Q2_10Q/generated-schema-plan.json",
+      "bytes": 11586,
+      "sha256": "62b01508e40810ae5a317570eb2d882df7f8a9e8f69f19b95fae44433c615303"
+    },
+    {
+      "path": "research/study-artifacts/prompts/CORNING_2023Q2_10Q/generated-prompt.json",
+      "bytes": 1300,
+      "sha256": "3b0371994793fa02b7127d9b26426c666353822254f60749e5d543bb7d53ce5f"
+    },
+    {
+      "path": "research/study-artifacts/prompts/CORNING_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 13915,
+      "sha256": "0335bf93fcdf7819b2f3e5d3f0ab1106c3d7b55067dd0eafcb3c5559a439059b"
+    },
+    {
+      "path": "research/study-artifacts/prompts/FEDEX_2023_10K/generated-prompt.json",
+      "bytes": 3585,
+      "sha256": "4c39bce3cd1d3bf70ac3f2f1c0e1ef5e23a9209a1e6059513977cb543a7c514e"
+    },
+    {
+      "path": "research/study-artifacts/prompts/FEDEX_2023_10K/generated-schema-plan.json",
+      "bytes": 11514,
+      "sha256": "7bae043dd6ed93006d76d0354bfecb528ee15ec9aae8dac46d93563bbea2b337"
+    },
+    {
+      "path": "research/study-artifacts/prompts/FOOTLOCKER_2023_10K/generated-prompt.json",
+      "bytes": 4723,
+      "sha256": "e70fff91015e5f1685577a5e0a0c88e5bf3eb30b29d8561b152b976236123cee"
+    },
+    {
+      "path": "research/study-artifacts/prompts/FOOTLOCKER_2023_10K/generated-schema-plan.json",
+      "bytes": 11603,
+      "sha256": "647efed36a031c2838146454f14a2fffe30d7a43da726d5f303ad28cbb59ddc6"
+    },
+    {
+      "path": "research/study-artifacts/prompts/GENERALMILLS_2023_10K/generated-prompt.json",
+      "bytes": 3512,
+      "sha256": "5277636258ef9dbfd6911ee02ed78973ee36faf3927929c31fa46de54bb64595"
+    },
+    {
+      "path": "research/study-artifacts/prompts/GENERALMILLS_2023_10K/generated-schema-plan.json",
+      "bytes": 13573,
+      "sha256": "7414e01e30b7e989ad967f8db5a266f6f83723b51e607a30e4d251d77fd23480"
+    },
+    {
+      "path": "research/study-artifacts/prompts/JPMORGAN_2023Q2_10Q/generated-prompt.json",
+      "bytes": 4239,
+      "sha256": "7419e1d39e41bac00d3507bc4ad3f1f714ec8f80fad00759cf4762f0c1168fc7"
+    },
+    {
+      "path": "research/study-artifacts/prompts/JPMORGAN_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 11921,
+      "sha256": "ac6965af4d911c87000692d3ce4fa069684d3d9cc20f47dda89b3b203c9c046a"
+    },
+    {
+      "path": "research/study-artifacts/prompts/MGMRESORTS_2023Q2_10Q/generated-prompt.json",
+      "bytes": 3893,
+      "sha256": "f8512b67e70cef7f9eed83029502dc0b5d729bf3465922f4ab10a6aef7fda9bf"
+    },
+    {
+      "path": "research/study-artifacts/prompts/MGMRESORTS_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 11413,
+      "sha256": "b6493eb94b9e2e0a7933df33f3f6bbd81addd3b7fdf2457859d1de449f6b2917"
+    },
+    {
+      "path": "research/study-artifacts/prompts/MICROSOFT_2023_10K/generated-prompt.json",
+      "bytes": 2853,
+      "sha256": "7685fcd9620407059a6386cc86ebb91253c85f4eafd54212e5e8e9b8783a34ef"
+    },
+    {
+      "path": "research/study-artifacts/prompts/MICROSOFT_2023_10K/generated-schema-plan.json",
+      "bytes": 10200,
+      "sha256": "61e35134f81cc38664be049f4787caaf25518bdd6d07f644ed81e13e56476380"
+    },
+    {
+      "path": "research/study-artifacts/prompts/NETFLIX_2023Q2_10Q/generated-prompt.json",
+      "bytes": 4284,
+      "sha256": "93b0f01359bf9f20bf066f9ac6e6388ef5a957a16e34af43824e89cfd11e36ef"
+    },
+    {
+      "path": "research/study-artifacts/prompts/NETFLIX_2023Q2_10Q/generated-schema-plan.json",
+      "bytes": 10095,
+      "sha256": "4f6844e50f92c477559151b451f92faf42a7657c42e06eac8e8f41f8d3555e75"
+    },
+    {
+      "path": "research/study-artifacts/prompts/NIKE_2023_10K/generated-prompt.json",
+      "bytes": 3613,
+      "sha256": "ed32eb0ce6bfff88a0241bd5c110fb1254111eb8332a19c312f4325fa49c1d59"
+    },
+    {
+      "path": "research/study-artifacts/prompts/NIKE_2023_10K/generated-schema-plan.json",
+      "bytes": 14104,
+      "sha256": "231b5b6486dd4506ee13b91e7507e11c6f834acdce6764fc8d6aed0dfb4ceefc"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ORACLE_2023_10K/generated-prompt.json",
+      "bytes": 3957,
+      "sha256": "e49924356c2a7e5a20857724c5a627acb0848e00e30b03fcffd4ad84752d0a0a"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ORACLE_2023_10K/generated-schema-plan.json",
+      "bytes": 12655,
+      "sha256": "701f50cfd7fafe6a97252902b824fd06606140b70f2488c3c26d9046c4f01fef"
+    },
+    {
+      "path": "research/study-artifacts/prompts/SALESFORCE_2023Q3_10Q/generated-prompt.json",
+      "bytes": 4580,
+      "sha256": "97bc7200f2f0a181e37c4de093efdb5b313522b0746f3c63f4eada47c24e1a72"
+    },
+    {
+      "path": "research/study-artifacts/prompts/SALESFORCE_2023Q3_10Q/generated-schema-plan.json",
+      "bytes": 11000,
+      "sha256": "79299d3ab4e044e7bc1f267c3735ea2b5355193bb88d88b6eab19827bd983fd8"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ULTABEAUTY_2023_10K/generated-prompt.json",
+      "bytes": 4399,
+      "sha256": "8d812e72cbdfbf96a8fc736c2ce4a1d30fd7af0d37171bfbbb95e17e9529ce1b"
+    },
+    {
+      "path": "research/study-artifacts/prompts/ULTABEAUTY_2023_10K/generated-schema-plan.json",
+      "bytes": 12271,
+      "sha256": "5ce20b8c6725562e94b2866276ebfaf4617e3668ce92089ec9c35a0f41245c37"
+    },
+    {
+      "path": "research/study-artifacts/prompts/WALMART_2023_10K/generated-prompt.json",
+      "bytes": 5005,
+      "sha256": "e31b27b36000e4ef8f1c206c56ad1d35a59e76a9602738fd58909cf9483c7c1e"
+    },
+    {
+      "path": "research/study-artifacts/prompts/WALMART_2023_10K/generated-schema-plan.json",
+      "bytes": 10252,
+      "sha256": "6fd7d2132db7fb0c6a978a3dfd5aae1b2f4a592785916a230f52977174ed4e8e"
+    },
+    {
+      "path": "research/study-artifacts/prompts/WALMART_2024Q1_10Q/generated-prompt.json",
+      "bytes": 4252,
+      "sha256": "200906e4211c6985a126c9d834222bdc8f3a5f6c1faa683321a5f96df5f4f33b"
+    },
+    {
+      "path": "research/study-artifacts/prompts/WALMART_2024Q1_10Q/generated-schema-plan.json",
+      "bytes": 8181,
+      "sha256": "6223c961f3504c8246c5c8bf73c3478551278bb37cec9497a8bda60fab211c09"
+    },
+    {
+      "path": "research/study-artifacts/references/A-BSIS.json",
+      "bytes": 8320374,
+      "sha256": "d1f4fc45ec0b7161a0539e32599bf52c843af9406dfb859c6079787ba199a56d"
+    },
+    {
+      "path": "research/study-artifacts/references/A-EPSRE.json",
+      "bytes": 1285206,
+      "sha256": "a43aa1d2332657622fc897a97b64d63c094332a49979dadd76de8f293d9ea723"
+    },
+    {
+      "path": "research/study-artifacts/references/A-inventory.json",
+      "bytes": 48378,
+      "sha256": "065261c1cdaaa2c436a7aaaa15b82b2bf6c04c9f6faf3ae19df2cc777b9287f1"
+    },
+    {
+      "path": "research/study-artifacts/references/B-BSIS.json",
+      "bytes": 8578618,
+      "sha256": "cbe72934114106b86ee4ab0625e52fd1bd9dd38b669113e05827eed1722b4ee5"
+    },
+    {
+      "path": "research/study-artifacts/references/B-EPSRE.json",
+      "bytes": 1320118,
+      "sha256": "799b1149d720c3a1627dd059dfc0fd144864368c186ce9754043fe6bab437565"
+    },
+    {
+      "path": "research/study-artifacts/references/B-inventory.json",
+      "bytes": 52509,
+      "sha256": "56500b674dd2bcd43e714be58c667ab880efe133c1017ee15e2c623de56230c7"
+    },
+    {
+      "path": "research/study-artifacts/references/all50-complete_inventory.json",
+      "bytes": 103159,
+      "sha256": "52f8b9dca87de905699f7a45fea282b5a2db8983d5af17ce3006ab2aacdb2455"
+    },
+    {
+      "path": "research/study-artifacts/references/all50-physical_map.json",
+      "bytes": 14843011,
+      "sha256": "f4c72f95f8a502dde453aab57c28d643314f8e9cd4dbc5026e5f0132a6e7887f"
+    },
+    {
+      "path": "research/study-artifacts/references/old10-BSIS.json",
+      "bytes": 5138623,
+      "sha256": "8a3bf46ce98200f0cf68a60e0db0bd822ddc41283723233fdb626a2f3699e3b8"
+    },
+    {
+      "path": "research/study-artifacts/references/old10-EPSRE.json",
+      "bytes": 1659575,
+      "sha256": "c22c31b16315e23cf437d7865c603de326c54baa821fccabd8549ce983fb78a7"
+    },
+    {
+      "path": "research/study-artifacts/references/old10-inventory.json",
+      "bytes": 27983,
+      "sha256": "2a8d62ca31f2fbaf2724e0b55cf8da88e88afe901bde464c8fd144a5187bef54"
+    },
+    {
+      "path": "research/study-artifacts/relocation-map.json",
+      "bytes": 24980,
+      "sha256": "f65812233e9b5c6e5059cc72f0bbc839e73415f22a7e9372186816bd9c4ed0d6"
     },
     {
       "path": "src/financial_table_verifier/__init__.py",
@@ -590,5 +1150,12 @@
       "bytes": 1177,
       "sha256": "e86c03a6892fa111c1cadd28ed6cbb52d1434bf7dc9d582480f338c9b548bf5f"
     }
-  ]
+  ],
+  "study_companion": {
+    "path": "research/study-artifacts",
+    "files": 112,
+    "inventory_sha256": "b82b708a011b2c98dfbe68958acaba83243ccff886fd95b5acce0ec5f6e25643",
+    "software_runtime_unchanged": true,
+    "public_data_status_at_preparation": "not pushed"
+  }
 }

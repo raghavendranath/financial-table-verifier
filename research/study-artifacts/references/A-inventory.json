@@ -1,0 +1,1509 @@
+{
+  "version": "source-complete-page-table-inventory-draft-v1",
+  "source_only": true,
+  "prediction_inputs_used": false,
+  "supersedes_target_only_inventory": {
+    "path": "work/reconstruction-expansion-v1/references/partition-a/source-table-binding-inventory-draft-v2.json",
+    "sha256": "fe2221dfbf089fcf87c3eade6844da8c96017360703530bccadb378791ed1228"
+  },
+  "definition": "Separate physical financial tables have a fresh/repeated column-header block or a separately titled unrelated table. Sections/subtotals/EPS/OCI within an integrated same-column statement remain one physical table. Numeric body line ranges may exclude visually reordered header text; headers remain in source evidence. Prose numbers, footnotes and page numbers are not tables.",
+  "complete_pages": [
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 6,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 7,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 39,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 40,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1629210-0000950170-23-049730",
+      "page": 50,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1629210-0000950170-23-049730",
+      "page": 51,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 75,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 76,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 77,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 6,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 91,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 92,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 3,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 61,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 59,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 56,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 54,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 9,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 10,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 11,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 3,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 97,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 98,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 27,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 28,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 7,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1527753-0000950170-24-055607",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1527753-0000950170-24-055607",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 52,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 50,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 6,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 4,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "813298-0000950170-24-101685",
+      "page": 3,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "813298-0000950170-24-101685",
+      "page": 5,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1800315-0000950170-24-028610",
+      "page": 117,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1800315-0000950170-24-028610",
+      "page": 118,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 42,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 8,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 43,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 111,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 78,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 13,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 93,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 10,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 7,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 63,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 57,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 8,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 7,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 99,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 31,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 29,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 30,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 9,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 98,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 54,
+      "complete_for_page": true
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 7,
+      "complete_for_page": true
+    }
+  ],
+  "tables": [
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 75,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p75-t0",
+      "table_line_range": [
+        1,
+        40
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "11f8361f59809d42b2e8665d40d72954d7c7056d6cd173b05c59287659d8f99f",
+      "source_evidence_sha256": "ee737ebd03ac62e474ca72bf6e961e11e2a220adbe76b5d1e56dfa814dc4cf91"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 76,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p76-t0",
+      "table_line_range": [
+        1,
+        46
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "d86d26808525aa2455d20059768bf83f7347f5d27db34567bf51d502f2b779ed",
+      "source_evidence_sha256": "aded4c857e79b30fc0ce20bba49face70444bd473d4592fae2e59ec6fb3560bb"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 77,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p77-t0",
+      "table_line_range": [
+        1,
+        16
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "07c8cf15ff8f1ca7bbf5a9cb88cdb85160f9954d3e818f8ce104bb213b2e5c1a",
+      "source_evidence_sha256": "aa6863fd6029aa4168756312b1e67eb5ac9befc1e8f42917f123aacb6a8cfa00"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 78,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p78-t0",
+      "table_line_range": [
+        11,
+        45
+      ],
+      "numeric_column_count": 6,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7bae004d16824945b836bdb4eb20d90761a4efaa7816aeea58a7f1d932cae323",
+      "source_evidence_sha256": "c020b4fd6c009b0c9f8d9588a4fb778e515c1b7bd42ff0b57862d318eb672b90"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 111,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p111-t0",
+      "table_line_range": [
+        1,
+        21
+      ],
+      "numeric_column_count": 3,
+      "family": "cash_flow",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "913faa63025e0b073ae9aaf7363cd6ca9a67a155605ed5d4b96317fdeca92a9b",
+      "source_evidence_sha256": "58b2e35eed593a0818c5def364f6a4c77cc9292c642b5b1435b7b8fd5414e6ad"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 111,
+      "source_physical_table_ordinal": 1,
+      "source_table_id": "p111-t1",
+      "table_line_range": [
+        22,
+        32
+      ],
+      "numeric_column_count": 3,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "913faa63025e0b073ae9aaf7363cd6ca9a67a155605ed5d4b96317fdeca92a9b",
+      "source_evidence_sha256": "58b2e35eed593a0818c5def364f6a4c77cc9292c642b5b1435b7b8fd5414e6ad"
+    },
+    {
+      "document_id": "1163668-0001140361-24-013519",
+      "page": 111,
+      "source_physical_table_ordinal": 2,
+      "source_table_id": "p111-t2",
+      "table_line_range": [
+        33,
+        55
+      ],
+      "numeric_column_count": 3,
+      "family": "other_comprehensive_income",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "913faa63025e0b073ae9aaf7363cd6ca9a67a155605ed5d4b96317fdeca92a9b",
+      "source_evidence_sha256": "58b2e35eed593a0818c5def364f6a4c77cc9292c642b5b1435b7b8fd5414e6ad"
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        0,
+        43
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "ea58c77e9bf89064708b7555a523df78324cc21424eebb4f7e12c715707ca2bf",
+      "source_evidence_sha256": "846401a83fe00db16f91763634263e0a5ba4ebff9805e3eb3d742420877cc9d7"
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        0,
+        27
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "ed3252f2c095dbd579bb3da759d881264ee2762feda10d704c000b23c8b9777b",
+      "source_evidence_sha256": "f5a9af19265327e5d5ab6d32077168cdd0467a32f5ca8240fc8a30eaeb16c7cb"
+    },
+    {
+      "document_id": "1289945-0001289945-23-000049",
+      "page": 8,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p8-t0",
+      "table_line_range": [
+        15,
+        31
+      ],
+      "numeric_column_count": 5,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "e65fae5e5d7dbf01e9b2b72b548ffdf5d482ced75cddd4b3951c376825098ae3",
+      "source_evidence_sha256": "623c65742124599badc6de77f6c306dfe7da793c2ce15e93de14151472f53de8"
+    },
+    {
+      "document_id": "1527753-0000950170-24-055607",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        3,
+        39
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "e20ed2d82eec25221645c788797b44b87d2135c851d4a30dc3f8e1ba98d9994a",
+      "source_evidence_sha256": "ae3d8680d1b26771d48742a634c6aa2aedb39b5f9ed31ec368c3b90b5e372ee8"
+    },
+    {
+      "document_id": "1527753-0000950170-24-055607",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        1,
+        21
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "910fd08401e35c16b02bb880aff03b379f266ae8d5dc4a3977b52512ff7d630a",
+      "source_evidence_sha256": "a27689c4b0cf65507617a290fdade3138427f9667246238132f7bd2c1a41e2d9"
+    },
+    {
+      "document_id": "1629210-0000950170-23-049730",
+      "page": 50,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p50-t0",
+      "table_line_range": [
+        0,
+        42
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "b100c8206a8f32cc3a819d0fc8ba6402f36fa87e2468bd6f7618bfd0fb959213",
+      "source_evidence_sha256": "2c81da72046cfa00645bb33a0af0624cab36eecb04ee7fbb165ffe5d70410df3"
+    },
+    {
+      "document_id": "1629210-0000950170-23-049730",
+      "page": 51,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p51-t0",
+      "table_line_range": [
+        0,
+        26
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "9dca809809a3aa6dcb7e8d14c23648d8c7f7a4b21482c26241d22c05002fef53",
+      "source_evidence_sha256": "0d1ccf79c7faa53ade0910192fa009f9370039b28886cc25633c609ddc7affae"
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 97,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p97-t0",
+      "table_line_range": [
+        0,
+        29
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "bea5050b623baba295324fbddebdb9153c9b989a8d1e862224c3dafcde63b362",
+      "source_evidence_sha256": "2be31244bf62b386b86cbbad0225036f1cf22087215745b63c0f2277ad2b0bfe"
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 98,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p98-t0",
+      "table_line_range": [
+        0,
+        16
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "8f11b41975f8b41b5c26e0ac96c235d96e435ef61e3d5d3591a96cbc99b4df40",
+      "source_evidence_sha256": "93fd04813c37bd31a73d351b27d5bbb0284859563bec1897e4bee62bdf745f42"
+    },
+    {
+      "document_id": "1677077-0001214659-23-010076",
+      "page": 99,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p99-t0",
+      "table_line_range": [
+        6,
+        22
+      ],
+      "numeric_column_count": 8,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "1f34ffbfc6c43c51b25ada549373b024ca9883faf50cb0fed3aefd84a60fcd1c",
+      "source_evidence_sha256": "6fc99bb90f56c8a28e7e9ab13085391943df2446aa0b0afa1c51b14407c816a2"
+    },
+    {
+      "document_id": "1800315-0000950170-24-028610",
+      "page": 117,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p117-t0",
+      "table_line_range": [
+        0,
+        35
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "ed374fb256106898abaf9a13498f29052b5e7b57a88d55dd54985015c6a29080",
+      "source_evidence_sha256": "556f24a15e080ba107cc7774a52f0dcce535ca327771ebc806690249e8b0d9a3"
+    },
+    {
+      "document_id": "1800315-0000950170-24-028610",
+      "page": 118,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p118-t0",
+      "table_line_range": [
+        0,
+        26
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "29a5692aaee6a9b0b719a7365b55c2e3dd64ccac947f0e67c204c0c593d066ac",
+      "source_evidence_sha256": "d35bbb23c7c5abc83226188a8cd738da3044f39a839dcfbfbd686477c2db4bc2"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        3,
+        43
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "f44ae028b9c1150d4dcc29e6c19f4acb2be9d51fd923a809df4439a2cd11b643",
+      "source_evidence_sha256": "cfa9b8cdfe441f0530e200a73f3d34cff417a04771eaf7d621c11255925ffa69"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        1,
+        29
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "c4ea988e23c82841f10aa047b1c7aac8dd71bebc1d18d6a9841b75b1a9efd924",
+      "source_evidence_sha256": "ee7cd1823b1e71b78fc230be7a8b8c293fad80c22ac4df6bc85d84c3e3a61a37"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 6,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p6-t0",
+      "table_line_range": [
+        1,
+        32
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "0a0480511503e9a9485a6b695c539708f3336aa2f10e8c6868df2a3563c4a082",
+      "source_evidence_sha256": "62a78afc777005f35a2a8daaf86a9c2e5e6091241836b868815016d9d22eb70c"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 7,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p7-t0",
+      "table_line_range": [
+        1,
+        22
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "5b41b7e0505c733949cb02c6b45c1e767b47466f52e3ba9f5d927138cb8e1511",
+      "source_evidence_sha256": "198e3fbebdc9ef081e7fb5d81b52798a4c5241d185fce1d64826db15d78b0cb6"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 8,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p8-t0",
+      "table_line_range": [
+        19,
+        62
+      ],
+      "numeric_column_count": 9,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "5361b2607385c238f359aed87889696967fad50386cc3e91c6eb1f4d84c00fc0",
+      "source_evidence_sha256": "28a387fce21d087ae941a5e38485f8ee38a621e98b8444d2bc75ecd86311c2c1"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 42,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p42-t0",
+      "table_line_range": [
+        1,
+        7
+      ],
+      "numeric_column_count": 4,
+      "family": "EPS_note",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "544e08fd44c45a5e81576c3f1b081b6ac2f3067b6e6f86b0ab2e9b9babf97e4a",
+      "source_evidence_sha256": "6cd908c92b7a0872bc76e25c83ccbf459f6476db85a8e6927a02e0ffb59e0962"
+    },
+    {
+      "document_id": "1814287-0001814287-24-000051",
+      "page": 42,
+      "source_physical_table_ordinal": 1,
+      "source_table_id": "p42-t1",
+      "table_line_range": [
+        10,
+        25
+      ],
+      "numeric_column_count": 4,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "544e08fd44c45a5e81576c3f1b081b6ac2f3067b6e6f86b0ab2e9b9babf97e4a",
+      "source_evidence_sha256": "6cd908c92b7a0872bc76e25c83ccbf459f6476db85a8e6927a02e0ffb59e0962"
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 91,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p91-t0",
+      "table_line_range": [
+        0,
+        35
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "6674d8ec794b849e22b7563b1be6155f4c8bbae8af6e949b8e6b8c881cea0d08",
+      "source_evidence_sha256": "9452a20dd84dbe0684e5cc63584374e15c74780b83c14dd31789b4fd1c708604"
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 92,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p92-t0",
+      "table_line_range": [
+        0,
+        26
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7262eef6949189c072e813345b2f182407bd3dcd80969bf02ecb8d9741d5232e",
+      "source_evidence_sha256": "f5e75debf73f3d263811986e1c18dd133cc6052a9313c4260a22af74840bf94f"
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 93,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p93-t0",
+      "table_line_range": [
+        2,
+        25
+      ],
+      "numeric_column_count": 5,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "2e0116d83ab92bb76c72e3a193adb296eea1c4721bfd7d31b8335e2f3b8ff1a2",
+      "source_evidence_sha256": "05418bd16d99bccc3f99878be30354781624b0fb2bb4546ac2a8bd5ed6134343"
+    },
+    {
+      "document_id": "1937993-0001213900-24-021133",
+      "page": 93,
+      "source_physical_table_ordinal": 1,
+      "source_table_id": "p93-t1",
+      "table_line_range": [
+        26,
+        40
+      ],
+      "numeric_column_count": 5,
+      "family": "equity",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "2e0116d83ab92bb76c72e3a193adb296eea1c4721bfd7d31b8335e2f3b8ff1a2",
+      "source_evidence_sha256": "05418bd16d99bccc3f99878be30354781624b0fb2bb4546ac2a8bd5ed6134343"
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 9,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p9-t0",
+      "table_line_range": [
+        0,
+        18
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "277d9bb8a22f407407563c4f10cf6c0b7d987f01d7340e38f6df5ba5b3006f5e",
+      "source_evidence_sha256": "b690e68e71d71ac13b7926ba3c74ea679f18202e1dd343f113b086b45b3ddcde"
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 10,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p10-t0",
+      "table_line_range": [
+        0,
+        47
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "1815f999b6cbd6652a458ea6215cba84d7d1be95a0027ef10d3b3c7549a513ed",
+      "source_evidence_sha256": "ef1600731a791d6c614a43047a16c2d6708636863a924265835c836cc5bec7e8"
+    },
+    {
+      "document_id": "2022416-0001213900-24-073934",
+      "page": 11,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p11-t0",
+      "table_line_range": [
+        0,
+        36
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "6115e9863cfe2703016b1d8bcd4456520265659663bee4997be4644656ccf493",
+      "source_evidence_sha256": "fb18f1e5b362a792c359450e92981e54fa71f8ad72a825f1ac964f25c0579612"
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        4,
+        37
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "d2171a15c379c593c6adb1473aef031dd8772c6801edb6e3d3dc7a1d7113001d",
+      "source_evidence_sha256": "66ee2d0fe687d492077795dce98f7635e911cae610492c6158fc5c81063f046b"
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        1,
+        35
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "3ad737bb36a4104bd2d7a5f8c9f583e2ca8f4d2ba9635c1b3f7f8f0060e99861",
+      "source_evidence_sha256": "3d916c28b2dff4b9bac23ee25b404ba2839a45dff12ff5d7209fba55bd905990"
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 6,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p6-t0",
+      "table_line_range": [
+        1,
+        39
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "3d4fb077a2bb42dc7ca212ce5beee069aad8d937843679f2bec4cc05d9077084",
+      "source_evidence_sha256": "7b58fea853137a610356ddcb9fb9db090b0f445c8ebaf3e5b311ee359ce482be"
+    },
+    {
+      "document_id": "58361-0001628280-24-003010",
+      "page": 13,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p13-t0",
+      "table_line_range": [
+        11,
+        27
+      ],
+      "numeric_column_count": 2,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "19139195f4b1289136c464f99e8da5bd79cb804be9fb01e8ec40a15733a01782",
+      "source_evidence_sha256": "549ed408e109a464d5ca8f4765addfe79467866cd3712f399ebf88e7b4ea59f9"
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 27,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p27-t0",
+      "table_line_range": [
+        0,
+        39
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "446b4f7fc857b24eff1f92282b81042989b4c35bdc356c7bcb963ec55a6cfc3f",
+      "source_evidence_sha256": "0845d13822cc6584ba8ebe7ac0dc2a7a3bb42fd09a45867f53e17eb07e0d6902"
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 28,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p28-t0",
+      "table_line_range": [
+        1,
+        22
+      ],
+      "numeric_column_count": 2,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "75b73e0a48e2085025291e74ac890a6d7e685cb7427b06ba282073efb3360eb5",
+      "source_evidence_sha256": "e1217e3a15b243f9f8a8283b2b321b81d7417e904d516d88012e6df4a1e18329"
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 29,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p29-t0",
+      "table_line_range": [
+        10,
+        14
+      ],
+      "numeric_column_count": 7,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "3080abbfc7e9aaedcfacfb51265bb1d3f7bf45e747bec2a274ce511c294f0a96",
+      "source_evidence_sha256": "10f9b4774fba6f799eea4d5bedb810bed1128835ad642762e3536fdf1f29731b"
+    },
+    {
+      "document_id": "64472-0001193125-23-294347",
+      "page": 31,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p31-t0",
+      "table_line_range": [
+        20,
+        25
+      ],
+      "numeric_column_count": 6,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7f5843b533692b39ba3c8b9bb54842df0be301d6d5513c0ca2e2a58750e69012",
+      "source_evidence_sha256": "28c6a3ef64d6ab997f1d7b079ec60b66b8b9e64f820cb2c3c044f589d019dd0a"
+    },
+    {
+      "document_id": "813298-0000950170-24-101685",
+      "page": 3,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p3-t0",
+      "table_line_range": [
+        2,
+        43
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "6055cedc0ea158d404fda41d3b48242e0c93101fdec68cfc4ce7765d92bbe250",
+      "source_evidence_sha256": "8fd6b5393cdef2aaca876208a334c0765a685bc13b77d627f876ef1037a999ae"
+    },
+    {
+      "document_id": "813298-0000950170-24-101685",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        0,
+        24
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "e9339adf4610e9f7fb881dc0b3dccfcdbee3ae50fc4b7994dc8a48dc71088080",
+      "source_evidence_sha256": "892d1aead46735adef73447e8b9a9800876a603f3899eb7783c2b3666f8b0954"
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        2,
+        24
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7d300e2ac0387c5fc0772d5721fccd91ccb7390425c52cab55f13848037c4640",
+      "source_evidence_sha256": "aa23339e703045b257a5805626b80fecb2f0cdd8dd381ea1bcc9d492b3b9879a"
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 7,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p7-t0",
+      "table_line_range": [
+        0,
+        54
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "11406641a168d923735b2e68a8a7d25c82d2b29655b30de0ac4945ef83517a33",
+      "source_evidence_sha256": "3e8b3eb7019ffcb07fcaa5b563e1bdd3d3a6c38c3f2036feaca22dc31e1b62c2"
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 9,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p9-t0",
+      "table_line_range": [
+        19,
+        62
+      ],
+      "numeric_column_count": 7,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "99333eb50f1cdf15ed2f2fdfaba8c93e1405f8b880cc0c5d61b3df02bfbdf8d4",
+      "source_evidence_sha256": "a93e5b6fbfc50214e18dc61c2ff1f34e40910b9d409b6b739cb7efd79b9abc76"
+    },
+    {
+      "document_id": "AMCOR_2023Q2_10Q",
+      "page": 30,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p30-t0",
+      "table_line_range": [
+        0,
+        27
+      ],
+      "numeric_column_count": 4,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "451cf6bcfc7347c0c1f790945f3595825aa314e79dc6afa06e0ae23e9dbe6a20",
+      "source_evidence_sha256": "0056018f0f6d9cea57f1c78679b0d9c712684181a82efdaf572f44b60b3cdb6a"
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 50,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p50-t0",
+      "table_line_range": [
+        0,
+        23
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "f1b72dacbb16a20cb1f53eb6667f21502d2489ce77d0bd5db59cc54ebaee1d42",
+      "source_evidence_sha256": "b92e205f467e4c86eb1a2a1974a67342e4864d06a19bc1b614f7d2ff59b7bf30"
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 52,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p52-t0",
+      "table_line_range": [
+        0,
+        54
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "d6ca388b268d6230f6e8c62fd4517d7b04e7f59e881f750e6e10b7aff4fca23e",
+      "source_evidence_sha256": "af5b53c3ffb93d53df0ec94a978fafa610e4ea5e3600d97c0c7a35b66518ee5c"
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 54,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p54-t0",
+      "table_line_range": [
+        18,
+        56
+      ],
+      "numeric_column_count": 7,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "a80b2d0ef3a1fa606933be610f1a8196cba87bc8ec500141ea1e946d18b71a5b",
+      "source_evidence_sha256": "09f62096082a045df5d81501b14e95d5f9e9961cd67b0f5d0d25b3d674c2a0a9"
+    },
+    {
+      "document_id": "AMCOR_2023_10K",
+      "page": 98,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p98-t0",
+      "table_line_range": [
+        0,
+        25
+      ],
+      "numeric_column_count": 3,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "70938bac701d62b2f2f242dc5704074d0bddcc74d747696534a2f03697709dea",
+      "source_evidence_sha256": "e9521f36ebf7efa211e7a78d2d59bff0a0d723274f9d3cc04970622516064714"
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        2,
+        37
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7ba31132c1fe6b6bb0569c08cc0744c9172094ab7400051b51350356329c5a1d",
+      "source_evidence_sha256": "d42fbc1f1fe10691fb53dff7e416e6c41595f407e5852ac855dd7ac09fdea12b"
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 6,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p6-t0",
+      "table_line_range": [
+        0,
+        42
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "c7762141a6ef07155909b027f70416438ef18774e195a86fd381ca40cecd9fe1",
+      "source_evidence_sha256": "35edc4f894583d1ed07311527bc1eaffedc155d24549d7301f5a3870d2b0c0f2"
+    },
+    {
+      "document_id": "APPLE_2023Q3_10Q",
+      "page": 7,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p7-t0",
+      "table_line_range": [
+        12,
+        33
+      ],
+      "numeric_column_count": 4,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "b35a6254d0449d4d758ee2bfca1c6ced73a2fe1c6582c03bf9ac279272722c19",
+      "source_evidence_sha256": "dc92c8308b1527388954a0dfa1c31df73676ee620c0fb1b3acc5d17ebed362e2"
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 39,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p39-t0",
+      "table_line_range": [
+        0,
+        45
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "5791c734bd4375c59a873a4acfe9624f4eab3fc1a281f0c20e34f74ba48730d8",
+      "source_evidence_sha256": "8b702ae9ba85f986780450e1e4d68daee2294559eebb0dc17f4c20ad53456a43"
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 40,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p40-t0",
+      "table_line_range": [
+        0,
+        20
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "7df0df803dd48213c1f864439698ea08bf3416e7efc2dbe48641f85502f75d45",
+      "source_evidence_sha256": "94bdf110b866fd4477391fea17fe1786032c9b48aa326220bd991ecd30a596d1"
+    },
+    {
+      "document_id": "BESTBUY_2023_10K",
+      "page": 43,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p43-t0",
+      "table_line_range": [
+        17,
+        44
+      ],
+      "numeric_column_count": 6,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "42d88a9539d7c19b29b492971c9c73bd70c5cf4716038de896b873e4bd9b51eb",
+      "source_evidence_sha256": "da869c22da0b98bca3519a72868a5c9012a4a3c4fcb56635fc64ca5f4cb88e31"
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 3,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p3-t0",
+      "table_line_range": [
+        0,
+        43
+      ],
+      "numeric_column_count": 3,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "3268d9a08b2f7ae435407adb8a1f9ee83cb95922f3c7d6e8a5b3fbdb0431a231",
+      "source_evidence_sha256": "ce25722555fa1f61a5110d29ff37465580522eecda2d5784f1e3cd1394ee2c27"
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 4,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p4-t0",
+      "table_line_range": [
+        0,
+        23
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "819ee8955e88ff6ed8731c9431b5f3a5c5986b149b543697fe452f14c679cdb6",
+      "source_evidence_sha256": "6607ff191968ae521a8239fb2f134b7db805186f64bdd80a01212c3ffc9fba3f"
+    },
+    {
+      "document_id": "BESTBUY_2024Q2_10Q",
+      "page": 7,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p7-t0",
+      "table_line_range": [
+        12,
+        43
+      ],
+      "numeric_column_count": 6,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "abb7b0bbe11d9532f4ab351c4c8b16d3b12370114c75f14638c7ddc38efeb286",
+      "source_evidence_sha256": "9fe127c8d2ec5ce277672fcae7eb47f2aabdd4d068fe9af9735bf9140a30ad37"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 3,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p3-t0",
+      "table_line_range": [
+        1,
+        25
+      ],
+      "numeric_column_count": 4,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "0fcebdbdba5b218623e9ac868a5ba3ba92e28ac19e23dacf707ad68cb206d6a4",
+      "source_evidence_sha256": "8061d0766d1bb6c32327ad063870cc61d2c66d6abdacd286e1c108b5a5b29254"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 5,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p5-t0",
+      "table_line_range": [
+        1,
+        39
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "d032a1f93c312b09e13d55781e49801d8e5f38790da81738ec122bd1a7852ad0",
+      "source_evidence_sha256": "2703b6c2ca9b4d200985a644413a183c0b0259bdce1cc6df51e96e92c673f341"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 7,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p7-t0",
+      "table_line_range": [
+        24,
+        36
+      ],
+      "numeric_column_count": 8,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "d4b0ba629fa2d93291f0098d26a6a734062716672699568eeb551494ec524810",
+      "source_evidence_sha256": "ccb9791250f9c3d737bbe1589502df313083b2f9c6558278038abc6ad9f6b675"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 7,
+      "source_physical_table_ordinal": 1,
+      "source_table_id": "p7-t1",
+      "table_line_range": [
+        37,
+        72
+      ],
+      "numeric_column_count": 8,
+      "family": "equity",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "d4b0ba629fa2d93291f0098d26a6a734062716672699568eeb551494ec524810",
+      "source_evidence_sha256": "ccb9791250f9c3d737bbe1589502df313083b2f9c6558278038abc6ad9f6b675"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 10,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p10-t0",
+      "table_line_range": [
+        1,
+        16
+      ],
+      "numeric_column_count": 4,
+      "family": "EPS_note",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "6b7f3eb6e569852ae4001787fb06358281925f4e2acb71643df621b7cdb8fc80",
+      "source_evidence_sha256": "a1413d355c7ffb59dda80cdd7a7dbf4bf59beb3a8ff8df28c966c7f390fce0d7"
+    },
+    {
+      "document_id": "CORNING_2023Q2_10Q",
+      "page": 10,
+      "source_physical_table_ordinal": 1,
+      "source_table_id": "p10-t1",
+      "table_line_range": [
+        17,
+        25
+      ],
+      "numeric_column_count": 2,
+      "family": "inventory_note",
+      "contains_frozen_target": false,
+      "page_inventory_complete": true,
+      "source_image_sha256": "6b7f3eb6e569852ae4001787fb06358281925f4e2acb71643df621b7cdb8fc80",
+      "source_evidence_sha256": "a1413d355c7ffb59dda80cdd7a7dbf4bf59beb3a8ff8df28c966c7f390fce0d7"
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 59,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p59-t0",
+      "table_line_range": [
+        0,
+        20
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "a29d380192add6ea5172a0bf432c183de01fe0ed24213a72ea9115134e45196d",
+      "source_evidence_sha256": "cfaf69146cc09defecabbd6397d6c3d4194a2591dcec9465a53d66bc3c345f94"
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 61,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p61-t0",
+      "table_line_range": [
+        0,
+        40
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "78a1ce1bd4d01cb93569f0377becd3bc8b4ab0b58bf39022ec6535471de13f10",
+      "source_evidence_sha256": "4035a3dc409394bdd598fd34af84b677c3e262b7bc901bbd6e9aeccea9a024e6"
+    },
+    {
+      "document_id": "NIKE_2023_10K",
+      "page": 63,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p63-t0",
+      "table_line_range": [
+        2,
+        36
+      ],
+      "numeric_column_count": 8,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "989712b82f74e1d3d6a75f7c9587a645353f31e9e6a664252d8d615a0e123ef8",
+      "source_evidence_sha256": "eccdfd07a0f045fc805d751305b7d984ddc62ead446e5b6715a80f84aa40aeea"
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 54,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p54-t0",
+      "table_line_range": [
+        0,
+        30
+      ],
+      "numeric_column_count": 3,
+      "family": "income_statement",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "8c682f3fe2dee9e2daf65c719bd27253264962f2e5579d697824bf40612697fe",
+      "source_evidence_sha256": "b8b54a477ae948d4712c361c3d35a71f29f106e644cf2a85a8a603697cf9f9e3"
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 56,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p56-t0",
+      "table_line_range": [
+        0,
+        41
+      ],
+      "numeric_column_count": 2,
+      "family": "balance_sheet",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "5ce52852b4d1be89e43c3a248b079b2eed88835456fb35e24571d26cc6dc2120",
+      "source_evidence_sha256": "d33e89cd65a1169f63927592cdc95cc9173d410f3316012497cc721fab79a285"
+    },
+    {
+      "document_id": "WALMART_2023_10K",
+      "page": 57,
+      "source_physical_table_ordinal": 0,
+      "source_table_id": "p57-t0",
+      "table_line_range": [
+        7,
+        41
+      ],
+      "numeric_column_count": 8,
+      "family": "equity",
+      "page_inventory_complete": true,
+      "contains_frozen_target": true,
+      "source_image_sha256": "ae8f10b2bf17a842c53a39f6b3391f025108901857265b941250fee1c3d6a9f1",
+      "source_evidence_sha256": "10b0d386e5ad27364540bdee58962ebcdb18d28e012583aaccc93184114734aa"
+    }
+  ],
+  "counts": {
+    "pages": 66,
+    "tables": 72,
+    "nonoperand_tables_added": 6
+  },
+  "source_review_evidence": {
+    "all66pages_table_boundary_contact_sheets_actually_viewed": {
+      "path": "work/reconstruction-expansion-v1/references/partition-a/complete-inventory-proof/manifest.json",
+      "sha256": "f1f9382dde2f5e724549f1c173ff35916e844ebd14bf1fb81f4e1b4cb9d76a9b"
+    },
+    "native_source_all_lines_checked_for_numeric_table_rows_outside_target_ranges": true
+  },
+  "human_reviewed": false
+}

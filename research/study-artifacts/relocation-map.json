@@ -1,0 +1,437 @@
+{
+  "schema": "study-path-relocation-v1",
+  "rule": "The private local project-root prefix alone is replaced by study://workspace/. Everything after that prefix is retained.",
+  "meaning": "These are stable provenance identifiers, not remotely fetchable URLs. Only listed mappings are included in this bundle; image/PDF/other provenance links remain external and do not imply their files are included.",
+  "included_asset_mappings": [
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/40/generated-prompt.json",
+      "included_file": "prompts/1009919-0001683168-24-007491/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/40/generated-schema-plan.json",
+      "included_file": "prompts/1009919-0001683168-24-007491/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/30/generated-prompt.json",
+      "included_file": "prompts/1106644-0001213900-24-028731/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/30/generated-schema-plan.json",
+      "included_file": "prompts/1106644-0001213900-24-028731/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/13/generated-prompt.json",
+      "included_file": "prompts/1163668-0001140361-24-013519/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/13/generated-schema-plan.json",
+      "included_file": "prompts/1163668-0001140361-24-013519/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/37/generated-prompt.json",
+      "included_file": "prompts/1232582-0001232582-24-000068/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/37/generated-schema-plan.json",
+      "included_file": "prompts/1232582-0001232582-24-000068/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/19/generated-prompt.json",
+      "included_file": "prompts/1289945-0001289945-23-000049/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/19/generated-schema-plan.json",
+      "included_file": "prompts/1289945-0001289945-23-000049/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/42/generated-prompt.json",
+      "included_file": "prompts/1347858-0001558370-24-004163/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/42/generated-schema-plan.json",
+      "included_file": "prompts/1347858-0001558370-24-004163/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/43/generated-prompt.json",
+      "included_file": "prompts/1394056-0000950170-24-034668/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/43/generated-schema-plan.json",
+      "included_file": "prompts/1394056-0000950170-24-034668/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/08/generated-prompt.json",
+      "included_file": "prompts/1399520-0001558370-23-008139/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/08/generated-schema-plan.json",
+      "included_file": "prompts/1399520-0001558370-23-008139/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/25/generated-prompt.json",
+      "included_file": "prompts/1527753-0000950170-24-055607/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/25/generated-schema-plan.json",
+      "included_file": "prompts/1527753-0000950170-24-055607/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/33/generated-prompt.json",
+      "included_file": "prompts/1624326-0001493152-24-011172/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/33/generated-schema-plan.json",
+      "included_file": "prompts/1624326-0001493152-24-011172/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/12/generated-prompt.json",
+      "included_file": "prompts/1629210-0000950170-23-049730/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/12/generated-schema-plan.json",
+      "included_file": "prompts/1629210-0000950170-23-049730/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/22/generated-prompt.json",
+      "included_file": "prompts/1677077-0001214659-23-010076/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/22/generated-schema-plan.json",
+      "included_file": "prompts/1677077-0001214659-23-010076/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/32/generated-prompt.json",
+      "included_file": "prompts/1799011-0001493152-24-031168/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/32/generated-schema-plan.json",
+      "included_file": "prompts/1799011-0001493152-24-031168/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/29/generated-prompt.json",
+      "included_file": "prompts/1800315-0000950170-24-028610/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/29/generated-schema-plan.json",
+      "included_file": "prompts/1800315-0000950170-24-028610/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/38/generated-prompt.json",
+      "included_file": "prompts/1814287-0001814287-24-000028/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/38/generated-schema-plan.json",
+      "included_file": "prompts/1814287-0001814287-24-000028/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/10/generated-prompt.json",
+      "included_file": "prompts/1814287-0001814287-24-000051/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/10/generated-schema-plan.json",
+      "included_file": "prompts/1814287-0001814287-24-000051/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/31/generated-prompt.json",
+      "included_file": "prompts/1935033-0001493152-24-040685/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/31/generated-schema-plan.json",
+      "included_file": "prompts/1935033-0001493152-24-040685/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/15/generated-prompt.json",
+      "included_file": "prompts/1937993-0001213900-24-021133/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/15/generated-schema-plan.json",
+      "included_file": "prompts/1937993-0001213900-24-021133/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/20/generated-prompt.json",
+      "included_file": "prompts/2022416-0001213900-24-073934/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/20/generated-schema-plan.json",
+      "included_file": "prompts/2022416-0001213900-24-073934/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/46/generated-prompt.json",
+      "included_file": "prompts/33002-0000950170-23-031470/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/46/generated-schema-plan.json",
+      "included_file": "prompts/33002-0000950170-23-031470/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/00/generated-prompt.json",
+      "included_file": "prompts/33488-0001437749-24-010066/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/00/generated-schema-plan.json",
+      "included_file": "prompts/33488-0001437749-24-010066/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/36/generated-prompt.json",
+      "included_file": "prompts/3M_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/36/generated-schema-plan.json",
+      "included_file": "prompts/3M_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/14/generated-prompt.json",
+      "included_file": "prompts/58361-0001628280-24-003010/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/14/generated-schema-plan.json",
+      "included_file": "prompts/58361-0001628280-24-003010/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/23/generated-prompt.json",
+      "included_file": "prompts/64472-0001193125-23-294347/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/23/generated-schema-plan.json",
+      "included_file": "prompts/64472-0001193125-23-294347/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/05/generated-prompt.json",
+      "included_file": "prompts/7623-0001437749-23-019854/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/05/generated-schema-plan.json",
+      "included_file": "prompts/7623-0001437749-23-019854/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/28/generated-prompt.json",
+      "included_file": "prompts/813298-0000950170-24-101685/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/28/generated-schema-plan.json",
+      "included_file": "prompts/813298-0000950170-24-101685/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/34/generated-prompt.json",
+      "included_file": "prompts/918251-0001140361-23-029664/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/34/generated-schema-plan.json",
+      "included_file": "prompts/918251-0001140361-23-029664/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/07/generated-prompt.json",
+      "included_file": "prompts/ACTIVSIONBLIZZARD_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/07/generated-schema-plan.json",
+      "included_file": "prompts/ACTIVSIONBLIZZARD_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/24/generated-prompt.json",
+      "included_file": "prompts/AMCOR_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/24/generated-schema-plan.json",
+      "included_file": "prompts/AMCOR_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/26/generated-prompt.json",
+      "included_file": "prompts/AMCOR_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/26/generated-schema-plan.json",
+      "included_file": "prompts/AMCOR_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/09/generated-prompt.json",
+      "included_file": "prompts/AMERICANWATERWORKS_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/09/generated-schema-plan.json",
+      "included_file": "prompts/AMERICANWATERWORKS_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/27/generated-prompt.json",
+      "included_file": "prompts/APPLE_2023Q3_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/27/generated-schema-plan.json",
+      "included_file": "prompts/APPLE_2023Q3_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/11/generated-prompt.json",
+      "included_file": "prompts/BESTBUY_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/11/generated-schema-plan.json",
+      "included_file": "prompts/BESTBUY_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/21/generated-prompt.json",
+      "included_file": "prompts/BESTBUY_2024Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/21/generated-schema-plan.json",
+      "included_file": "prompts/BESTBUY_2024Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/16/generated-prompt.json",
+      "included_file": "prompts/CORNING_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/16/generated-schema-plan.json",
+      "included_file": "prompts/CORNING_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/03/generated-prompt.json",
+      "included_file": "prompts/FEDEX_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/03/generated-schema-plan.json",
+      "included_file": "prompts/FEDEX_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/48/generated-prompt.json",
+      "included_file": "prompts/FOOTLOCKER_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/48/generated-schema-plan.json",
+      "included_file": "prompts/FOOTLOCKER_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/35/generated-prompt.json",
+      "included_file": "prompts/GENERALMILLS_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/35/generated-schema-plan.json",
+      "included_file": "prompts/GENERALMILLS_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/49/generated-prompt.json",
+      "included_file": "prompts/JPMORGAN_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/49/generated-schema-plan.json",
+      "included_file": "prompts/JPMORGAN_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/47/generated-prompt.json",
+      "included_file": "prompts/MGMRESORTS_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/47/generated-schema-plan.json",
+      "included_file": "prompts/MGMRESORTS_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/02/generated-prompt.json",
+      "included_file": "prompts/MICROSOFT_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/02/generated-schema-plan.json",
+      "included_file": "prompts/MICROSOFT_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/45/generated-prompt.json",
+      "included_file": "prompts/NETFLIX_2023Q2_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/45/generated-schema-plan.json",
+      "included_file": "prompts/NETFLIX_2023Q2_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/17/generated-prompt.json",
+      "included_file": "prompts/NIKE_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/17/generated-schema-plan.json",
+      "included_file": "prompts/NIKE_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/04/generated-prompt.json",
+      "included_file": "prompts/ORACLE_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/04/generated-schema-plan.json",
+      "included_file": "prompts/ORACLE_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/44/generated-prompt.json",
+      "included_file": "prompts/SALESFORCE_2023Q3_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/44/generated-schema-plan.json",
+      "included_file": "prompts/SALESFORCE_2023Q3_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/01/generated-prompt.json",
+      "included_file": "prompts/ULTABEAUTY_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-v1/csv-prepared-v3/01/generated-schema-plan.json",
+      "included_file": "prompts/ULTABEAUTY_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/18/generated-prompt.json",
+      "included_file": "prompts/WALMART_2023_10K/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/18/generated-schema-plan.json",
+      "included_file": "prompts/WALMART_2023_10K/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/41/generated-prompt.json",
+      "included_file": "prompts/WALMART_2024Q1_10Q/generated-prompt.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/csv-prepared-v1/41/generated-schema-plan.json",
+      "included_file": "prompts/WALMART_2024Q1_10Q/generated-schema-plan.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/old10-uniform-selectors-v1/bs-is-source-projection-draft-v3.json",
+      "included_file": "references/old10-BSIS.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/old10-uniform-selectors-v1/eps-re-source-projection-draft-v3.json",
+      "included_file": "references/old10-EPSRE.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/old10-uniform-selectors-v1/complete-page-table-inventory-draft-v3.json",
+      "included_file": "references/old10-inventory.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-a/source-ledger-draft-v5.json",
+      "included_file": "references/A-BSIS.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-a/eps-re-source-ledger-draft-v5.json",
+      "included_file": "references/A-EPSRE.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-a/complete-page-table-inventory-draft-v1.json",
+      "included_file": "references/A-inventory.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-b/source-ledger-draft-v5.json",
+      "included_file": "references/B-BSIS.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-b/eps-re-source-ledger-draft-v6.json",
+      "included_file": "references/B-EPSRE.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/partition-b/complete-page-table-inventory-draft-v1.json",
+      "included_file": "references/B-inventory.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/aggregate-source-v1/physical-source-map-v1.json",
+      "included_file": "references/all50-physical_map.json"
+    },
+    {
+      "canonical_source_reference": "study://workspace/work/reconstruction-expansion-v1/references/aggregate-source-v1/complete-page-table-inventory-v1.json",
+      "included_file": "references/all50-complete_inventory.json"
+    }
+  ],
+  "source_pdf_resolution": "Use cohort.csv document_id and pdf_sha256 to supply exactly matching PDFs separately. No PDF or image is bundled.",
+  "canonical_hash_policy": "Embedded original SHA-256 values are retained. After path relocation, authenticate bundled bytes with file-inventory.json released_sha256; do not compare relocated bytes to original canonical hashes."
+}
