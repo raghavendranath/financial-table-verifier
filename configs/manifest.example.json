@@ -1,0 +1,13 @@
+{
+  "documents": [
+    {
+      "id": "company-a-10k-2024",
+      "pdf": "pdfs/company-a-10k-2024.pdf",
+      "pages": [50, 51],
+      "split": "pilot",
+      "source_url": null,
+      "accession": null,
+      "eps_eligible_tables": []
+    }
+  ]
+}

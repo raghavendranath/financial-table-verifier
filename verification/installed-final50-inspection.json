@@ -1,0 +1,193 @@
+{
+  "report_sha256": "e989c2c8edec9ab5a263bae39bed749c4d95ddc7ec33d48d9d549878e34aaaf3",
+  "coverage": {
+    "blocked_CSV_preparation": 6,
+    "blocked_source_preparation": 6,
+    "complete": 264,
+    "terminal_partial_failure": 24
+  },
+  "reports": 50,
+  "groups": [
+    {
+      "model_tag": "gemini",
+      "condition": "independent",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 2345,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 408,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "gemini",
+      "condition": "independent",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 2345,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 408,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "gemini",
+      "condition": "sequential",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 2561,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 420,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "gemini",
+      "condition": "sequential",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 2561,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 420,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "llama",
+      "condition": "independent",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 670,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 72,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "llama",
+      "condition": "independent",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 670,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 72,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "llama",
+      "condition": "sequential",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 1165,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 127,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "llama",
+      "condition": "sequential",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 1165,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 127,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "mistral",
+      "condition": "independent",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 1484,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 186,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "mistral",
+      "condition": "independent",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 1484,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 186,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "mistral",
+      "condition": "sequential",
+      "variant": "clean",
+      "metrics": {
+        "BSIS": {
+          "correct": 1953,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 228,
+          "fixed_denominator": 508
+        }
+      }
+    },
+    {
+      "model_tag": "mistral",
+      "condition": "sequential",
+      "variant": "raw",
+      "metrics": {
+        "BSIS": {
+          "correct": 1953,
+          "fixed_denominator": 2938
+        },
+        "EPSRE": {
+          "correct": 228,
+          "fixed_denominator": 508
+        }
+      }
+    }
+  ],
+  "scope": "Saved-cell recount; not fresh inference or source/PDF provenance replay"
+}

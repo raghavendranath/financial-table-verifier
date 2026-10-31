@@ -1,0 +1,23 @@
+[
+  {
+    "fixture": "excluded-v4-gemini-p3.json",
+    "source_response": "work/reconstruction-v1/development-viability-v4-sourcepin/gemini/pages/p0003/response.json",
+    "source_response_sha256": "91cac2ec495446201b2d8a705a1edf00ceee6fcfb9c35ecb2fc31549a4f31059",
+    "model_content_sha256": "43324653f279394b78ec066867536027a3b20ca42aab1c0819722a069c6653d6",
+    "use": "Excluded DEV structural contract regression only; no source/gold/numeric correctness comparison"
+  },
+  {
+    "fixture": "excluded-v4-gemini-p4.json",
+    "source_response": "work/reconstruction-v1/development-viability-v4-sourcepin/gemini/pages/p0004/response.json",
+    "source_response_sha256": "b1e77140ca30020cbca203b77595774291da5cbbbcf14f69c44c7a8dad2e625f",
+    "model_content_sha256": "be50e6973129ea4eaf93e42581614780fbdb7a3a777ffe9e562ea0d8743a5386",
+    "use": "Excluded DEV structural contract regression only; no source/gold/numeric correctness comparison"
+  },
+  {
+    "fixture": "excluded-v4-llama-p3.json",
+    "source_response": "work/reconstruction-v1/development-viability-v4-sourcepin/llama/pages/p0003/response.json",
+    "source_response_sha256": "3faa9bd532c54b7a348685e5d1a42d298b2de48beeb244f02b63e603e0ef20aa",
+    "model_content_sha256": "70f40668470434bdcaebb62ce2209ab6a49292b95d06e64f442b4fe89415e4a8",
+    "use": "Excluded DEV structural contract regression only; no source/gold/numeric correctness comparison"
+  }
+]

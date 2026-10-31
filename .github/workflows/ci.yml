@@ -1,0 +1,29 @@
+name: tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests -v
+      - run: ftv demo --output /tmp/ftv-ci-demo
+      - run: ftv paper-info
+      - run: ftv paper-demo --output /tmp/ftv-ci-paper-demo
+      - run: ftv paper-tests
+      - run: python -m pip wheel --no-deps . --wheel-dir dist
+      - run: python -m pip install --force-reinstall --no-deps dist/*.whl
+      - run: cd /tmp && ftv paper-info && ftv paper-demo --output /tmp/ftv-ci-installed-paper-demo
+      - run: ftv paper-info
+      - run: ftv paper-tests
+      - run: ftv paper-demo --output /tmp/ftv-ci-paper-demo

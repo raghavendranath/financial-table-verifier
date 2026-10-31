@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this version."
+type: software
+title: "Financial Table Verifier"
+version: "0.2.0rc1"
+authors:
+  - family-names: Kandula
+    given-names: Raghavendranath
+license: MIT
+abstract: "Research tools for sequential-context financial-table extraction, preserved CSV methods, and source-backed evaluation."
+repository-code: "https://github.com/raghavendranath/financial-table-verifier"

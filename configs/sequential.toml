@@ -1,0 +1,20 @@
+# Resolve paths relative to this configuration file.
+# Exact model availability and capabilities are checked against the live catalog.
+model = "google/gemini-2.5-pro"
+# provider = "your-verified-provider-slug"
+context = "sequential"
+dpi = 300
+temperature = 0
+seed = 42
+max_tokens = 12000
+timeout_seconds = 120
+max_attempts = 3
+max_requests = 20
+# Observed cost stop, NOT a hard spending cap. Configure a capped OpenRouter key too.
+max_observed_cost_usd = "5.00"
+max_context_chars = 100000
+max_image_pixels = 25000000
+relative_tolerance = "0.005"
+absolute_tolerance = "0.01"
+manifest = "../data/manifest.json"
+output = "../runs/pilot-sequential-r1"

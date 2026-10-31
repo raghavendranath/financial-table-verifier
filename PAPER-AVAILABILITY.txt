@@ -1,0 +1,14 @@
+CODE AVAILABILITY WORDING FOR THE PAPER
+
+Before publication of the repository contents:
+Extraction and evaluation code is prepared for release at
+https://github.com/raghavendranath/financial-table-verifier.
+
+After you publish the code and confirm the public URL works:
+Extraction and evaluation code is available at
+https://github.com/raghavendranath/financial-table-verifier
+(version 0.2.0rc1; cite the actual release tag or commit).
+
+The current manuscript accurately says code/reference files are prepared for
+release. Do not describe private study/billing archives as public. The repository
+is the code release; the full private paper archive is a separate collection.

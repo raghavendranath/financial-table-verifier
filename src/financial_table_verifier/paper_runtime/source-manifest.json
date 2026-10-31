@@ -1,0 +1,391 @@
+{
+  "schema": "FTV-byte-preserved-paper-source-v1",
+  "active_csv_procedure_sha256": "59d762e497c652a2bc0cc770fa6a463bfe25ea86080fffec99f466b8e375cac4",
+  "files": [
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/csv_io.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/csv_io.py",
+      "sha256": "47bbf6d423e3964d898410b788c5072a5d83162d785745ac5cb530efb8188b70",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/csv_io.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__init__.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__init__.py",
+      "sha256": "5c5e084453052ad910a8e121a9ae80c5986c90ddafa841cbcb15f5e5758b2586",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__init__.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/prompts.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/prompts.py",
+      "sha256": "cd0649e6ada5ae4b84ac07f7d49b4d7ccad4e799d8b99d7b835e1dc36f2b3e24",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/prompts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/pipeline.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/pipeline.py",
+      "sha256": "93d3ffa1b8721209da434a1f4fe382bf41661224a565ef9c48601f91422fc2a6",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/pipeline.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/contracts.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/contracts.py",
+      "sha256": "5a58a7e54e7c016aeaa721243f20513c4667eb161d5ea5b0c10f0a258ca084e6",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/contracts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/syntax_examples.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/syntax_examples.py",
+      "sha256": "84f57f26b74f0fa7b85c430a29437df7b6e4ae5419613ef6e8f1a35cce109b9f",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/syntax_examples.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/artifacts.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/artifacts.py",
+      "sha256": "c8e1a931f678850bf0b3798c4dbf99c25e61f85d351be55ba01eb52fc59a0795",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/artifacts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__main__.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__main__.py",
+      "sha256": "23c4ec71d3bcdbc95360d3a84f00b4cf58e6c498bcc7985280ab05f421c38cf7",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__main__.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/auxiliary.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/auxiliary.py",
+      "sha256": "9cf80fa5010b3f46f32f13194495838376c32711c1293dc52eb2981379367574",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/auxiliary.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/preparation.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/preparation.py",
+      "sha256": "7940dd16ef1cc79fe2d80876ff470cb8e36d33af378b0f85d1102cfba42d43fd",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/preparation.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/cleaning.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/cleaning.py",
+      "sha256": "96f2c2e4209d0b29c18ee58d6ec7e70f7db717487489ee35632becb192ffd0c5",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/cleaning.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_official_html.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/tests/test_official_html.py",
+      "sha256": "33064e5746cf237aa9124990d59ce22fc0425b03976c378179b8926a46859047",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/tests/test_official_html.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_independent_adversarial.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/tests/test_independent_adversarial.py",
+      "sha256": "34f441dc46e39182e7f7b19a5c7df9055f8d74b05d2a2a34b74ae7e2e9c26d9d",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/tests/test_independent_adversarial.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_development_runner.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/tests/test_development_runner.py",
+      "sha256": "ac33be0adcb73584969bfe1e0b8da0bd882e6318d6225323e88ccc05c12a7494",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/tests/test_development_runner.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_csv_first.py",
+      "original_relative_path": "work/reconstruction-v1/csv-first-v1/tests/test_csv_first.py",
+      "sha256": "d6977d9cc570d1f9ffcd8acbb8c8afe967ccaf69224badfde681ffdaf5c7fc99",
+      "runtime_path": "work/reconstruction-v1/csv-first-v1/tests/test_csv_first.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/report_full50.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/report_full50.py",
+      "sha256": "fae2ca7b805673d47ae47ed9942a89a3fbd3badf8c24944d49478e0b2d5a6c5c",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/report_full50.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_provenance50.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_provenance50.py",
+      "sha256": "ae2f32b607b7190b009b967f9926dc7071cf65fb17ae0af0ccd2048b60ace9cc",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_provenance50.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/paired_clusters.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/paired_clusters.py",
+      "sha256": "af91595cbf256f89d010274ed95ef3c4871b4a34650746baecd72cd56013fd8f",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/paired_clusters.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_source_compiler.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_source_compiler.py",
+      "sha256": "96608a08772310e7c66f190455df09fafa8259baf36ed44b48fcc6429442178b",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_source_compiler.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_report_full50.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_report_full50.py",
+      "sha256": "460b5294db858d05756782edb38fc404b6364d294ca8db143f5d6ee0ad3edba4",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_report_full50.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/accounting_screens.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/accounting_screens.py",
+      "sha256": "1d62d40341e04d7756212753be12e042813c3d84fbc7f51f5b50a4fada15b459",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/accounting_screens.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/structural_binding.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/structural_binding.py",
+      "sha256": "d8cbee221f93c98bf753d050b0fab3eb02ceddb6fa1c3b0b01f7e31c6ddb4afe",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/structural_binding.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_accounting_screens.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_accounting_screens.py",
+      "sha256": "ad740ac94c47e91db0c8fdcc8ffe4d95ab9918c02a723bb72af48bddcd374b44",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_accounting_screens.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/source_compiler.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/source_compiler.py",
+      "sha256": "b8d26b0878a54fdcd10d1c2458c124690ecbce53e0dd3a5ebbbfc24f156abff5",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/source_compiler.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_paired_clusters.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_paired_clusters.py",
+      "sha256": "de40136e25282aa027edb12d379f105d408c2a7b6ea7a29c4657dbbc7063c3b4",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_paired_clusters.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/score_population.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/score_population.py",
+      "sha256": "ee4189f9ca4b0baf9415234463cfcc2596b8f6b0da9b13c90a2ab482436d1688",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/score_population.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_structural_binding.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/test_structural_binding.py",
+      "sha256": "66beda6bd3d66cc765c793b715362a81df91cf457676c98283841943915a0368",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/test_structural_binding.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/provenance50.py",
+      "original_relative_path": "work/reconstruction-expansion-v1/evaluation-v1/provenance50.py",
+      "sha256": "05727798014cd01a6b094e47414ebb68df344ff0cef3aa56e527de92a2ab4614",
+      "runtime_path": "work/reconstruction-expansion-v1/evaluation-v1/provenance50.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/score_bs_is.py",
+      "original_relative_path": "work/reconstruction-v1/csv-evaluation-v1/score_bs_is.py",
+      "sha256": "ed424a79094bba69115ce8dc1b0f5c7f971ce799d8715bb9433df05c89dbbd9d",
+      "runtime_path": "work/reconstruction-v1/csv-evaluation-v1/score_bs_is.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/paired_analysis.py",
+      "original_relative_path": "work/reconstruction-v1/csv-evaluation-v1/paired_analysis.py",
+      "sha256": "adaa1df66f1d42d778219c741496b6dfb3ea1ceb9c5bdd3a39d8c3498777cfa5",
+      "runtime_path": "work/reconstruction-v1/csv-evaluation-v1/paired_analysis.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/numeric_format.py",
+      "original_relative_path": "work/reconstruction-v1/csv-evaluation-v1/numeric_format.py",
+      "sha256": "950740005b0b907bafedfdea83d710adbad1e6a964d7eb39fbd9fa8e2b6871f8",
+      "runtime_path": "work/reconstruction-v1/csv-evaluation-v1/numeric_format.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/provenance.py",
+      "original_relative_path": "work/reconstruction-v1/csv-evaluation-v1/provenance.py",
+      "sha256": "22ad38b23f8ab38dd8050dfbedc6e1fbebf30e26df69f9c7c4da7f58c3871161",
+      "runtime_path": "work/reconstruction-v1/csv-evaluation-v1/provenance.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/README.txt",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/README.txt",
+      "sha256": "fc18c227db90ca6ddec133d3563764619a294be4ed8997e5f6289991ea6a7d64",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/README.txt"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/RUNTIME.txt",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/RUNTIME.txt",
+      "sha256": "22fb52fdbeb619e2126db2a5ce0cabff40947d76eb346f826d0a76736f9582f2",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/RUNTIME.txt"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/contract-schemas.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/contract-schemas.json",
+      "sha256": "c3bd2c23b9193e9d3a73f04216a0542abb47a4cb2095b12b03eb54095c22567d",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/contract-schemas.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/example-config.template.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/example-config.template.json",
+      "sha256": "b351dd5101a94aea82ebb7589fc64e34b975e3ce0de01f0981052b1fb3b2fca4",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/example-config.template.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/jpeg-payload-planning.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/jpeg-payload-planning.json",
+      "sha256": "99b5e0f9b98950312cb3a7428bddf1edae681b5e2a9d1e3e00c62bf11de955a3",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/jpeg-payload-planning.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/pyproject.toml",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/pyproject.toml",
+      "sha256": "2f0391729762e760a082cbc6ead8ca878a123b3d672f08047cf6090a5a2fdd10",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/pyproject.toml"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__init__.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__init__.py",
+      "sha256": "b097bb118aefa8f36108f18a067dcaba31402ae7e8a71ab28d62cd6640f1502b",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__init__.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__main__.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__main__.py",
+      "sha256": "8f76f72c484567930576ba051ffde697fdc648ee5e76687002660bdbb6e8e29c",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__main__.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/accounting.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/accounting.py",
+      "sha256": "89389c8411362cd490fd67dce6f196124dbd55d1d42510a88d28107b36000c6d",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/accounting.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/adapters.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/adapters.py",
+      "sha256": "d713eba06da3422b9be0fb75ee037a7b2cc0978a13669ddc9a258e610bbfe4fa",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/adapters.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/cleaning.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/cleaning.py",
+      "sha256": "e336ab1de6fe152329b8c7a49f95c7356167d5b59b00f4176022675c53723a7d",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/cleaning.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/contracts.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/contracts.py",
+      "sha256": "6f19a1e668dd9a5e7772da150e07346e5735e5a9e347da982c0c73543bd2d105",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/contracts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/model_contracts.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/model_contracts.py",
+      "sha256": "c27201e639f64c57d38bed84d9e678f965830c7abbeadb4e9e7c1c198e4f975c",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/model_contracts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/normalization.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/normalization.py",
+      "sha256": "d703a59437732ea5bb2f6867d9d85de75e7cb1eb3fb03a164c48ed9349031903",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/normalization.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/pipeline.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/pipeline.py",
+      "sha256": "d0fa56dc37cc5c4a5e6b87d8161e05b5ed69bef436f38a8216b3d7c40fb85a64",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/pipeline.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/prompts.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/prompts.py",
+      "sha256": "912aec26e6139520503751a029754409bce91edbe97157b6c77bb8863f470109",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/prompts.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/stages.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/stages.py",
+      "sha256": "26529c245a07abc84138752009723de1f711eab0de4bc120679348ebe4466116",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/stages.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/units.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/units.py",
+      "sha256": "e3b0c188f909c9fff1f1c57c23858cbf4d9d593f889e09e8991efc44221e18f7",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/units.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p3.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p3.json",
+      "sha256": "8447ce331b83090ac7cf37269a7d0fdb3c736d07d4e00525525754f945d310a9",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p3.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p4.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p4.json",
+      "sha256": "25f2657363501ed2e6f52067cc159febae5f028524df60c0824e8f208f58dc64",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p4.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-llama-p3.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-llama-p3.json",
+      "sha256": "72bb2ab509fb25ce5e94cf45de8b22bb67a646d974b0f9286d5072be85639bdf",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-llama-p3.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/provenance.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/provenance.json",
+      "sha256": "b529e6036b0bdcfda553cf67eaa91874dccb72de4caf6be792eadcb4b678f64f",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/provenance.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_model_normalization.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_model_normalization.py",
+      "sha256": "5e02459dd4d25a7a94ad619bb578d8a76a663472bf94dcfcaf13bcf33af3de4e",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_model_normalization.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_pipeline.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_pipeline.py",
+      "sha256": "81ef5df90bba6c86df33e3f19e26f0578f24017729e127bf0b53262b4f751332",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_pipeline.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_reconstruction.py",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_reconstruction.py",
+      "sha256": "9b562a05290e3ff07379b25bb2fba0d0473710c3fc3759517f6f3ef209357776",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_reconstruction.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/verification.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/verification.json",
+      "sha256": "fb57d520dd9c6c464a2c33494d32e417c216574cefa317299c72d8d490920681",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/verification.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/preservation-receipt.json",
+      "original_relative_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/preservation-receipt.json",
+      "sha256": "55f727d48b3595e960ae7d89fa1d43c4252055eaffdb1e8d20549f954e1e2420",
+      "runtime_path": "work/reconstruction-v1/implementations/pipeline-v6-f255fad7/preservation-receipt.json"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv_development_runner.py",
+      "original_relative_path": "work/reconstruction-v1/csv_development_runner.py",
+      "sha256": "cb3a73105a502560939e5636f916940c851111a8a198172f6afd51cedf3b4d52",
+      "runtime_path": "work/reconstruction-v1/csv_development_runner.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-format-guidance-v3/syntax_examples.py",
+      "original_relative_path": "work/reconstruction-v1/csv-format-guidance-v3/syntax_examples.py",
+      "sha256": "84f57f26b74f0fa7b85c430a29437df7b6e4ae5419613ef6e8f1a35cce109b9f",
+      "runtime_path": "work/reconstruction-v1/csv-format-guidance-v3/syntax_examples.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-format-guidance-v3/test_syntax_examples.py",
+      "original_relative_path": "work/reconstruction-v1/csv-format-guidance-v3/test_syntax_examples.py",
+      "sha256": "dee6c98905493ed0af6817f60cefca470ff380f870b3459bcb7ab7f1fdaa68e4",
+      "runtime_path": "work/reconstruction-v1/csv-format-guidance-v3/test_syntax_examples.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-enum-compat-v4/replay_development.py",
+      "original_relative_path": "work/reconstruction-v1/csv-enum-compat-v4/replay_development.py",
+      "sha256": "e16e4b71e3064833143b8a43466114ae35665527449cf9ae89e29c468d3c1768",
+      "runtime_path": "work/reconstruction-v1/csv-enum-compat-v4/replay_development.py"
+    },
+    {
+      "release_path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-enum-compat-v4/test_wire_proof.py",
+      "original_relative_path": "work/reconstruction-v1/csv-enum-compat-v4/test_wire_proof.py",
+      "sha256": "f024c3cde5ac7ed505d71e8689d011c7f33ce27ac4e663cb1690fe28b81a5d81",
+      "runtime_path": "work/reconstruction-v1/csv-enum-compat-v4/test_wire_proof.py"
+    }
+  ],
+  "optional_HTML_TEDS_vendor_files_omitted_from_public_release": true
+}

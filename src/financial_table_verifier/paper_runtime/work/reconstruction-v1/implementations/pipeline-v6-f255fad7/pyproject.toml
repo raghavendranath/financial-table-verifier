@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftv-reconstruction-scaffold"
+version = "0.0.1"
+description = "Offline contracts for a new, separately evaluated reconstruction"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.10,<3", "pypdfium2>=4.30,<6", "Pillow>=10.4,<13"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

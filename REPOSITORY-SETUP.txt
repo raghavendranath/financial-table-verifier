@@ -1,0 +1,11 @@
+Name: financial-table-verifier
+URL: https://github.com/raghavendranath/financial-table-verifier
+Branch: main
+License: MIT
+Version: 0.2.0rc1
+Description: Research tools for extracting financial tables from SEC filings with sequential context, source-value evaluation, and accounting consistency checks.
+
+Codex acknowledgment in README:
+OpenAI Codex assisted software development. The author is responsible for the code.
+
+No push or GitHub publication was performed. The author will publish the code.

@@ -1,0 +1,32 @@
+{
+  "file_sha256": {
+    "README.txt": "fc18c227db90ca6ddec133d3563764619a294be4ed8997e5f6289991ea6a7d64",
+    "RUNTIME.txt": "22fb52fdbeb619e2126db2a5ce0cabff40947d76eb346f826d0a76736f9582f2",
+    "contract-schemas.json": "c3bd2c23b9193e9d3a73f04216a0542abb47a4cb2095b12b03eb54095c22567d",
+    "example-config.template.json": "b351dd5101a94aea82ebb7589fc64e34b975e3ce0de01f0981052b1fb3b2fca4",
+    "jpeg-payload-planning.json": "99b5e0f9b98950312cb3a7428bddf1edae681b5e2a9d1e3e00c62bf11de955a3",
+    "pyproject.toml": "2f0391729762e760a082cbc6ead8ca878a123b3d672f08047cf6090a5a2fdd10",
+    "src/ftv_reconstruction/__init__.py": "b097bb118aefa8f36108f18a067dcaba31402ae7e8a71ab28d62cd6640f1502b",
+    "src/ftv_reconstruction/__main__.py": "8f76f72c484567930576ba051ffde697fdc648ee5e76687002660bdbb6e8e29c",
+    "src/ftv_reconstruction/accounting.py": "89389c8411362cd490fd67dce6f196124dbd55d1d42510a88d28107b36000c6d",
+    "src/ftv_reconstruction/adapters.py": "d713eba06da3422b9be0fb75ee037a7b2cc0978a13669ddc9a258e610bbfe4fa",
+    "src/ftv_reconstruction/cleaning.py": "e336ab1de6fe152329b8c7a49f95c7356167d5b59b00f4176022675c53723a7d",
+    "src/ftv_reconstruction/contracts.py": "6f19a1e668dd9a5e7772da150e07346e5735e5a9e347da982c0c73543bd2d105",
+    "src/ftv_reconstruction/model_contracts.py": "c27201e639f64c57d38bed84d9e678f965830c7abbeadb4e9e7c1c198e4f975c",
+    "src/ftv_reconstruction/normalization.py": "d703a59437732ea5bb2f6867d9d85de75e7cb1eb3fb03a164c48ed9349031903",
+    "src/ftv_reconstruction/pipeline.py": "d0fa56dc37cc5c4a5e6b87d8161e05b5ed69bef436f38a8216b3d7c40fb85a64",
+    "src/ftv_reconstruction/prompts.py": "912aec26e6139520503751a029754409bce91edbe97157b6c77bb8863f470109",
+    "src/ftv_reconstruction/stages.py": "26529c245a07abc84138752009723de1f711eab0de4bc120679348ebe4466116",
+    "src/ftv_reconstruction/units.py": "e3b0c188f909c9fff1f1c57c23858cbf4d9d593f889e09e8991efc44221e18f7",
+    "tests/fixtures/excluded-v4-gemini-p3.json": "8447ce331b83090ac7cf37269a7d0fdb3c736d07d4e00525525754f945d310a9",
+    "tests/fixtures/excluded-v4-gemini-p4.json": "25f2657363501ed2e6f52067cc159febae5f028524df60c0824e8f208f58dc64",
+    "tests/fixtures/excluded-v4-llama-p3.json": "72bb2ab509fb25ce5e94cf45de8b22bb67a646d974b0f9286d5072be85639bdf",
+    "tests/fixtures/provenance.json": "b529e6036b0bdcfda553cf67eaa91874dccb72de4caf6be792eadcb4b678f64f",
+    "tests/test_model_normalization.py": "5e02459dd4d25a7a94ad619bb578d8a76a663472bf94dcfcaf13bcf33af3de4e",
+    "tests/test_pipeline.py": "81ef5df90bba6c86df33e3f19e26f0578f24017729e127bf0b53262b4f751332",
+    "tests/test_reconstruction.py": "9b562a05290e3ff07379b25bb2fba0d0473710c3fc3759517f6f3ef209357776",
+    "verification.json": "fb57d520dd9c6c464a2c33494d32e417c216574cefa317299c72d8d490920681"
+  },
+  "procedure_sha256": "f255fad79eccfc9f941457a9e1821ff0e326ad8b890cb2319a7ac6c80513be7b",
+  "source": "/Users/raghav/Documents/Codex/2026-10-25/here-s-ther-eview-i-recierved/work/reconstruction-v1/development"
+}

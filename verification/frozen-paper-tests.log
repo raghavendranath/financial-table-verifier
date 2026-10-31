@@ -1,0 +1,19 @@
+.................................................................................................................................
+----------------------------------------------------------------------
+Ran 129 tests in 0.852s
+
+OK
+{
+  "status": "passed",
+  "tests_run": 129,
+  "skipped": 0,
+  "excluded_requires_separate_study_archive": [
+    "test_source_compiler.CompilerTests.test_actual_source_contract_compiles_counts_without_reading_any_predictions"
+  ],
+  "paid_requests": 0,
+  "source_verification": {
+    "verified_source_files": 64,
+    "csv_procedure_sha256": "59d762e497c652a2bc0cc770fa6a463bfe25ea86080fffec99f466b8e375cac4",
+    "scope": "Byte-preserved study code; no model calls or study data loaded"
+  }
+}

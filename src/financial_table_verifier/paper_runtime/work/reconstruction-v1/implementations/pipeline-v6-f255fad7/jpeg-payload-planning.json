@@ -1,0 +1,74 @@
+{
+  "purpose": "Local infrastructure payload planning only; no model response/extraction score used",
+  "old_request_file": "work/reconstruction-v1/prepared/00/survey/chunk-0013/request.json",
+  "old_actual_curl_json_bytes": 7044832,
+  "new_same_request_with_registered_jpeg_json_bytes": 10093754,
+  "reduction_fraction": -0.43278846110169833,
+  "jpeg_quality": 90,
+  "jpeg_subsampling": 2,
+  "dpi": 300,
+  "image_count": 6,
+  "images": [
+    {
+      "png_bytes": 894099,
+      "jpeg_bytes": 1199530,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "71700900b8dda4142724165e29c6eaec0cd5e805755bfd012beadf2a9b7e2aef",
+      "jpeg_sha256": "deb11c89c182f9abbb3fae1fd4f7fba3e13645aed8ec3f8b76c686a804b18e77"
+    },
+    {
+      "png_bytes": 976103,
+      "jpeg_bytes": 1411503,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "7e243bf450921c4761df5d2ace611841bf9d0e3bc13d13df9d9f973d0a5750c6",
+      "jpeg_sha256": "9109233de63b34ad5804c62851069de4a466cf61240e828306d10e385dd7e144"
+    },
+    {
+      "png_bytes": 959806,
+      "jpeg_bytes": 1392419,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "390754d182909acf010f2aa7e2891c32412dbfb5d3fd8cee6602c22c9125df40",
+      "jpeg_sha256": "ccbf69c9d2eda9ed84f5967fe5b1779a0d43c78df20c894e89facbd5df703552"
+    },
+    {
+      "png_bytes": 771491,
+      "jpeg_bytes": 1127245,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "6d7cf8bebd3a520ed7504667242e4b2d79975dbef100d42e4d23da401ff975e1",
+      "jpeg_sha256": "8027211c94e8836094c114e581447650f6cb2c421c1f5051ad8ad718d1bc53ae"
+    },
+    {
+      "png_bytes": 562130,
+      "jpeg_bytes": 831759,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "4d1eb9a1368171ad20310dc0fb7177724e3c76ca1e490a7bd519dc5cdf8c7f65",
+      "jpeg_sha256": "6a4eb9a9fa3820e964fd275d1ae99990352b87937b878db566d5df99e4f95cfd"
+    },
+    {
+      "png_bytes": 1117441,
+      "jpeg_bytes": 1605301,
+      "dimensions": [
+        2550,
+        3301
+      ],
+      "source_png_sha256": "24d047fdb3dc1ace637996b7a1071329509872a3be6e36c707c5b69075d949e0",
+      "jpeg_sha256": "213a791e2a7b3ebff10a02392438b47b4ebfcbe00a57d831207493c231cc198e"
+    }
+  ],
+  "network_calls": 0
+}

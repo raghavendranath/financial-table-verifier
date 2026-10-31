@@ -1,0 +1,10 @@
+WARNING: The directory '/Users/raghav/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /Users/raghav/Documents/Codex/2026-10-25/here-s-ther-eview-i-recierved/work/publishable-code-release-v1/financial-table-verifier-release
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: financial-table-verifier
+  Building wheel for financial-table-verifier (pyproject.toml): started
+  Building wheel for financial-table-verifier (pyproject.toml): finished with status 'done'
+  Created wheel for financial-table-verifier: filename=financial_table_verifier-0.2.0rc1-py3-none-any.whl size=270005 sha256=e29bd695d72f136120cba72174bbcc6ef6884966df55d070aabec62423cd5443
+  Stored in directory: /private/var/folders/fk/w_0fz9vd1vzgcv5gbsxjjs8w0000gn/T/pip-ephem-wheel-cache-94nxvu8y/wheels/09/6d/b5/b6e6d01744d7c9cf9d17df1337994f1a745ceb41cce83c2812
+Successfully built financial-table-verifier

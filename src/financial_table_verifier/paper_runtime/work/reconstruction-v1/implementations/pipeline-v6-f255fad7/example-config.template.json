@@ -1,0 +1,49 @@
+{
+  "experiment_id": "TEMPLATE-NOT-FROZEN",
+  "document_id": "EXAMPLE",
+  "issuer_id": "EXAMPLE",
+  "pdf": "/ABSOLUTE/SOURCE.pdf",
+  "pdf_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "selected_pages": [
+    1,
+    2
+  ],
+  "structural_pages": [
+    1,
+    2
+  ],
+  "accounting_pages": [],
+  "selected_images": {},
+  "preparation_illustrative_pages": [
+    1
+  ],
+  "development_examples": [],
+  "model": "google/gemini-2.5-pro",
+  "provider": "google-ai-studio",
+  "preparation_model": "google/gemini-2.5-pro",
+  "preparation_provider": "google-ai-studio",
+  "condition": "sequential",
+  "repeat": 1,
+  "dpi": 300,
+  "max_image_pixels": 25000000,
+  "survey_chunk_pages": 2,
+  "survey_image_format": "png",
+  "survey_jpeg_quality": 90,
+  "survey_max_tokens": 3500,
+  "structure_max_tokens": 32768,
+  "schema_max_tokens": 6000,
+  "prompt_max_tokens": 6000,
+  "extraction_max_tokens": 32768,
+  "reasoning_max_tokens": null,
+  "preparation_reasoning_max_tokens": 1024,
+  "extraction_reasoning_max_tokens": 1024,
+  "temperature": 0.0,
+  "seed": 42,
+  "max_context_chars": 500000,
+  "output": "/ABSOLUTE/NEW/OUTPUT",
+  "prepared_dir": "/ABSOLUTE/SHARED/PREPARED",
+  "protocol_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "selection_freeze_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "reuse_preparation_from": null,
+  "survey_validation_attempts": 2
+}

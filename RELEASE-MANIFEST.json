@@ -1,0 +1,589 @@
+{
+  "schema": "FTV-clean-publication-files-v2",
+  "version": "0.2.0rc1",
+  "license": "MIT",
+  "repository": "https://github.com/raghavendranath/financial-table-verifier",
+  "software_acknowledgment_only_in_repository": true,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 111,
+      "sha256": "e4c9f80551d607917bec9d850baa6525e3a1443d913df6b647a6b8eb791c373e"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 982,
+      "sha256": "dffd6b140d8e58838ddbc484ef668c26c275229d6a85e3040c8fe406480a6629"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 171,
+      "sha256": "a67144db25c26c900652bf8a4b7f2bc628b8005651271694e8f7d59d3a51ee81"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 451,
+      "sha256": "ee6f1ab30afddf45b115fc9a2d46611dfb1bf38184594b7d6fbfc2bde992cc13"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "e71f17e196fd855bc9847c4b916cfdc9cb7c864ec9f500bf04c761d7c56fa42b"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 292,
+      "sha256": "337b0ce3f6801e165b8009fe2756a88a2cd629914c90bb4f4c42e447236e388e"
+    },
+    {
+      "path": "PAPER-AVAILABILITY.txt",
+      "bytes": 673,
+      "sha256": "eea302db2e4c7fe3219ef30a8b81ec7fc72cff40a73418a186f74badec6d06cb"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "bytes": 1803,
+      "sha256": "77a93a2d3d8ba3b68bf429a0335eeaf88dee4f6d0ce54a425140dcf66c4fafb7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5870,
+      "sha256": "767df6ffe6d40aca71a280f45fe8e25591ab2ecee4e6d309981142f5878f53bd"
+    },
+    {
+      "path": "REPOSITORY-SETUP.txt",
+      "bytes": 499,
+      "sha256": "c45a088433d0911854fa27f059d61ea76786c6ed7cf413c69d02e2bd227c5447"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1253,
+      "sha256": "bf7d74982a84465a104f26a4556fe7cb610c5a7d61109912313bba8dc7dc40df"
+    },
+    {
+      "path": "configs/independent.toml",
+      "bytes": 429,
+      "sha256": "efddf63ceb18b96f04178561b96db4bde14ef2be2e9a753f456d8ff8f6f888b2"
+    },
+    {
+      "path": "configs/manifest.example.json",
+      "bytes": 247,
+      "sha256": "7010bea8f4e01509d12f35abced71bc8dae1457ea3967a5e0662b2d09c3c0adc"
+    },
+    {
+      "path": "configs/sequential.toml",
+      "bytes": 648,
+      "sha256": "a72d0f02af9527f4b7e31f802c52b79355ad21cd9cfeaaceb45a24c1c961d672"
+    },
+    {
+      "path": "dist/financial_table_verifier-0.2.0rc1-py3-none-any.whl",
+      "bytes": 270074,
+      "sha256": "7cf9a563c81faab6e9d0965d256ab48d54a3b510d18fe27018d5b88cefb669fa"
+    },
+    {
+      "path": "docs/PAPER_REPRODUCTION.md",
+      "bytes": 4872,
+      "sha256": "40f44f09b95527bf77487239bfcba3267c09cb690327d7dba3f99bebaec97137"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 951,
+      "sha256": "67e27ceb7e9df2367d70a520ad45092d6d1f9175cb4eeec9422cb46c73dfd788"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "bytes": 223,
+      "sha256": "7b88cc8b5c46c752ef768193514425d9d2c15d0bb93d3614b848a7cf1cbb8ef3"
+    },
+    {
+      "path": "src/financial_table_verifier/__init__.py",
+      "bytes": 101,
+      "sha256": "f9ad3d50be6005663d811e05067bc60c16f04dff79ae368c9f900dab28cb4cde"
+    },
+    {
+      "path": "src/financial_table_verifier/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/financial_table_verifier/audit.py",
+      "bytes": 7318,
+      "sha256": "e6744126ef50bcfe310133961861adfe61fd0506beca749ded94d3ac71ba5e6c"
+    },
+    {
+      "path": "src/financial_table_verifier/cli.py",
+      "bytes": 12242,
+      "sha256": "fccb794d75daa2f38c77621ce96d6a2dea48599c2b4984b932fe31d43ef41099"
+    },
+    {
+      "path": "src/financial_table_verifier/cohort.py",
+      "bytes": 12678,
+      "sha256": "36357230dea92a46b3f34012f04cf5d10e7297d9b38c2816e91e37b66692b76b"
+    },
+    {
+      "path": "src/financial_table_verifier/config.py",
+      "bytes": 784,
+      "sha256": "19b2d003cc17b3bac75ff8251a838a60950f502ceb596877bc1f85418057e0a2"
+    },
+    {
+      "path": "src/financial_table_verifier/consistency.py",
+      "bytes": 7572,
+      "sha256": "204cda59627430cba38c371b738036d792eb2d9f15e14ffae5e7847fc760823a"
+    },
+    {
+      "path": "src/financial_table_verifier/demo.py",
+      "bytes": 7653,
+      "sha256": "0697fd5f85c619f580adeafe3c217fff2790ce4d889775c846f2736b6fd51f16"
+    },
+    {
+      "path": "src/financial_table_verifier/evaluation.py",
+      "bytes": 15959,
+      "sha256": "2f25096e5a36e078f89a467c3e17238dab5a26d14d60e5a991dd6f32ef18000f"
+    },
+    {
+      "path": "src/financial_table_verifier/local_data.py",
+      "bytes": 3748,
+      "sha256": "2e622aba852c65d6c1e991438bfe352b78e8424468c760ef4919d147595a597a"
+    },
+    {
+      "path": "src/financial_table_verifier/numbers.py",
+      "bytes": 933,
+      "sha256": "67dfe96f81df69a995126b76d4e1438945d5da2b8e5806aabed496d358a9ee28"
+    },
+    {
+      "path": "src/financial_table_verifier/openrouter.py",
+      "bytes": 22357,
+      "sha256": "ef8d9e95287d382bd635de566c88fc6c56f1e9825942827e5eeee81b17b58a21"
+    },
+    {
+      "path": "src/financial_table_verifier/paper.py",
+      "bytes": 10927,
+      "sha256": "6e95831d42f66372942498c2cb87a35d9ed38416b5c2cdbff4f0f7e738eb8b6e"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/source-manifest.json",
+      "bytes": 29527,
+      "sha256": "229c8ce391b8befff286a35dcbc44e59fe839efc08dc84240db2f9c1f209eb53"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/accounting_screens.py",
+      "bytes": 15547,
+      "sha256": "1d62d40341e04d7756212753be12e042813c3d84fbc7f51f5b50a4fada15b459"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/paired_clusters.py",
+      "bytes": 4391,
+      "sha256": "af91595cbf256f89d010274ed95ef3c4871b4a34650746baecd72cd56013fd8f"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/provenance50.py",
+      "bytes": 3525,
+      "sha256": "05727798014cd01a6b094e47414ebb68df344ff0cef3aa56e527de92a2ab4614"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/report_full50.py",
+      "bytes": 14292,
+      "sha256": "fae2ca7b805673d47ae47ed9942a89a3fbd3badf8c24944d49478e0b2d5a6c5c"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/score_population.py",
+      "bytes": 8303,
+      "sha256": "ee4189f9ca4b0baf9415234463cfcc2596b8f6b0da9b13c90a2ab482436d1688"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/source_compiler.py",
+      "bytes": 7855,
+      "sha256": "b8d26b0878a54fdcd10d1c2458c124690ecbce53e0dd3a5ebbbfc24f156abff5"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/structural_binding.py",
+      "bytes": 12743,
+      "sha256": "d8cbee221f93c98bf753d050b0fab3eb02ceddb6fa1c3b0b01f7e31c6ddb4afe"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_accounting_screens.py",
+      "bytes": 13822,
+      "sha256": "ad740ac94c47e91db0c8fdcc8ffe4d95ab9918c02a723bb72af48bddcd374b44"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_paired_clusters.py",
+      "bytes": 3120,
+      "sha256": "de40136e25282aa027edb12d379f105d408c2a7b6ea7a29c4657dbbc7063c3b4"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_provenance50.py",
+      "bytes": 3956,
+      "sha256": "ae2f32b607b7190b009b967f9926dc7071cf65fb17ae0af0ccd2048b60ace9cc"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_report_full50.py",
+      "bytes": 8380,
+      "sha256": "460b5294db858d05756782edb38fc404b6364d294ca8db143f5d6ee0ad3edba4"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_source_compiler.py",
+      "bytes": 5573,
+      "sha256": "96608a08772310e7c66f190455df09fafa8259baf36ed44b48fcc6429442178b"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-expansion-v1/evaluation-v1/test_structural_binding.py",
+      "bytes": 11665,
+      "sha256": "66beda6bd3d66cc765c793b715362a81df91cf457676c98283841943915a0368"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-enum-compat-v4/replay_development.py",
+      "bytes": 10257,
+      "sha256": "e16e4b71e3064833143b8a43466114ae35665527449cf9ae89e29c468d3c1768"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-enum-compat-v4/test_wire_proof.py",
+      "bytes": 1886,
+      "sha256": "f024c3cde5ac7ed505d71e8689d011c7f33ce27ac4e663cb1690fe28b81a5d81"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/numeric_format.py",
+      "bytes": 3273,
+      "sha256": "950740005b0b907bafedfdea83d710adbad1e6a964d7eb39fbd9fa8e2b6871f8"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/paired_analysis.py",
+      "bytes": 4419,
+      "sha256": "adaa1df66f1d42d778219c741496b6dfb3ea1ceb9c5bdd3a39d8c3498777cfa5"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/provenance.py",
+      "bytes": 15883,
+      "sha256": "22ad38b23f8ab38dd8050dfbedc6e1fbebf30e26df69f9c7c4da7f58c3871161"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-evaluation-v1/score_bs_is.py",
+      "bytes": 17537,
+      "sha256": "ed424a79094bba69115ce8dc1b0f5c7f971ce799d8715bb9433df05c89dbbd9d"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__init__.py",
+      "bytes": 236,
+      "sha256": "5c5e084453052ad910a8e121a9ae80c5986c90ddafa841cbcb15f5e5758b2586"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/__main__.py",
+      "bytes": 2484,
+      "sha256": "23c4ec71d3bcdbc95360d3a84f00b4cf58e6c498bcc7985280ab05f421c38cf7"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/artifacts.py",
+      "bytes": 10463,
+      "sha256": "c8e1a931f678850bf0b3798c4dbf99c25e61f85d351be55ba01eb52fc59a0795"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/auxiliary.py",
+      "bytes": 12314,
+      "sha256": "9cf80fa5010b3f46f32f13194495838376c32711c1293dc52eb2981379367574"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/cleaning.py",
+      "bytes": 3502,
+      "sha256": "96f2c2e4209d0b29c18ee58d6ec7e70f7db717487489ee35632becb192ffd0c5"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/contracts.py",
+      "bytes": 8393,
+      "sha256": "5a58a7e54e7c016aeaa721243f20513c4667eb161d5ea5b0c10f0a258ca084e6"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/csv_io.py",
+      "bytes": 9272,
+      "sha256": "47bbf6d423e3964d898410b788c5072a5d83162d785745ac5cb530efb8188b70"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/pipeline.py",
+      "bytes": 13824,
+      "sha256": "93d3ffa1b8721209da434a1f4fe382bf41661224a565ef9c48601f91422fc2a6"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/preparation.py",
+      "bytes": 16516,
+      "sha256": "7940dd16ef1cc79fe2d80876ff470cb8e36d33af378b0f85d1102cfba42d43fd"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/prompts.py",
+      "bytes": 8230,
+      "sha256": "cd0649e6ada5ae4b84ac07f7d49b4d7ccad4e799d8b99d7b835e1dc36f2b3e24"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/src/ftv_csv_reconstruction/syntax_examples.py",
+      "bytes": 2191,
+      "sha256": "84f57f26b74f0fa7b85c430a29437df7b6e4ae5419613ef6e8f1a35cce109b9f"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_csv_first.py",
+      "bytes": 29519,
+      "sha256": "d6977d9cc570d1f9ffcd8acbb8c8afe967ccaf69224badfde681ffdaf5c7fc99"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_development_runner.py",
+      "bytes": 4734,
+      "sha256": "ac33be0adcb73584969bfe1e0b8da0bd882e6318d6225323e88ccc05c12a7494"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_independent_adversarial.py",
+      "bytes": 5418,
+      "sha256": "34f441dc46e39182e7f7b19a5c7df9055f8d74b05d2a2a34b74ae7e2e9c26d9d"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-first-v1/tests/test_official_html.py",
+      "bytes": 1541,
+      "sha256": "33064e5746cf237aa9124990d59ce22fc0425b03976c378179b8926a46859047"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-format-guidance-v3/syntax_examples.py",
+      "bytes": 2191,
+      "sha256": "84f57f26b74f0fa7b85c430a29437df7b6e4ae5419613ef6e8f1a35cce109b9f"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv-format-guidance-v3/test_syntax_examples.py",
+      "bytes": 6021,
+      "sha256": "dee6c98905493ed0af6817f60cefca470ff380f870b3459bcb7ab7f1fdaa68e4"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/csv_development_runner.py",
+      "bytes": 7886,
+      "sha256": "cb3a73105a502560939e5636f916940c851111a8a198172f6afd51cedf3b4d52"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/README.txt",
+      "bytes": 10150,
+      "sha256": "fc18c227db90ca6ddec133d3563764619a294be4ed8997e5f6289991ea6a7d64"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/RUNTIME.txt",
+      "bytes": 15175,
+      "sha256": "22fb52fdbeb619e2126db2a5ce0cabff40947d76eb346f826d0a76736f9582f2"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/contract-schemas.json",
+      "bytes": 62797,
+      "sha256": "c3bd2c23b9193e9d3a73f04216a0542abb47a4cb2095b12b03eb54095c22567d"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/example-config.template.json",
+      "bytes": 1448,
+      "sha256": "b351dd5101a94aea82ebb7589fc64e34b975e3ce0de01f0981052b1fb3b2fca4"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/jpeg-payload-planning.json",
+      "bytes": 2326,
+      "sha256": "99b5e0f9b98950312cb3a7428bddf1edae681b5e2a9d1e3e00c62bf11de955a3"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/preservation-receipt.json",
+      "bytes": 2992,
+      "sha256": "55f727d48b3595e960ae7d89fa1d43c4252055eaffdb1e8d20549f954e1e2420"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/pyproject.toml",
+      "bytes": 387,
+      "sha256": "2f0391729762e760a082cbc6ead8ca878a123b3d672f08047cf6090a5a2fdd10"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__init__.py",
+      "bytes": 86,
+      "sha256": "b097bb118aefa8f36108f18a067dcaba31402ae7e8a71ab28d62cd6640f1502b"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/__main__.py",
+      "bytes": 3569,
+      "sha256": "8f76f72c484567930576ba051ffde697fdc648ee5e76687002660bdbb6e8e29c"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/accounting.py",
+      "bytes": 13127,
+      "sha256": "89389c8411362cd490fd67dce6f196124dbd55d1d42510a88d28107b36000c6d"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/adapters.py",
+      "bytes": 4795,
+      "sha256": "d713eba06da3422b9be0fb75ee037a7b2cc0978a13669ddc9a258e610bbfe4fa"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/cleaning.py",
+      "bytes": 6099,
+      "sha256": "e336ab1de6fe152329b8c7a49f95c7356167d5b59b00f4176022675c53723a7d"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/contracts.py",
+      "bytes": 8208,
+      "sha256": "6f19a1e668dd9a5e7772da150e07346e5735e5a9e347da982c0c73543bd2d105"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/model_contracts.py",
+      "bytes": 12584,
+      "sha256": "c27201e639f64c57d38bed84d9e678f965830c7abbeadb4e9e7c1c198e4f975c"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/normalization.py",
+      "bytes": 6775,
+      "sha256": "d703a59437732ea5bb2f6867d9d85de75e7cb1eb3fb03a164c48ed9349031903"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/pipeline.py",
+      "bytes": 43840,
+      "sha256": "d0fa56dc37cc5c4a5e6b87d8161e05b5ed69bef436f38a8216b3d7c40fb85a64"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/prompts.py",
+      "bytes": 9041,
+      "sha256": "912aec26e6139520503751a029754409bce91edbe97157b6c77bb8863f470109"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/stages.py",
+      "bytes": 4080,
+      "sha256": "26529c245a07abc84138752009723de1f711eab0de4bc120679348ebe4466116"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/src/ftv_reconstruction/units.py",
+      "bytes": 2833,
+      "sha256": "e3b0c188f909c9fff1f1c57c23858cbf4d9d593f889e09e8991efc44221e18f7"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p3.json",
+      "bytes": 25446,
+      "sha256": "8447ce331b83090ac7cf37269a7d0fdb3c736d07d4e00525525754f945d310a9"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-gemini-p4.json",
+      "bytes": 37476,
+      "sha256": "25f2657363501ed2e6f52067cc159febae5f028524df60c0824e8f208f58dc64"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/excluded-v4-llama-p3.json",
+      "bytes": 28435,
+      "sha256": "72bb2ab509fb25ce5e94cf45de8b22bb67a646d974b0f9286d5072be85639bdf"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/fixtures/provenance.json",
+      "bytes": 1423,
+      "sha256": "b529e6036b0bdcfda553cf67eaa91874dccb72de4caf6be792eadcb4b678f64f"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_model_normalization.py",
+      "bytes": 9340,
+      "sha256": "5e02459dd4d25a7a94ad619bb578d8a76a663472bf94dcfcaf13bcf33af3de4e"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_pipeline.py",
+      "bytes": 26147,
+      "sha256": "81ef5df90bba6c86df33e3f19e26f0578f24017729e127bf0b53262b4f751332"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/tests/test_reconstruction.py",
+      "bytes": 15444,
+      "sha256": "9b562a05290e3ff07379b25bb2fba0d0473710c3fc3759517f6f3ef209357776"
+    },
+    {
+      "path": "src/financial_table_verifier/paper_runtime/work/reconstruction-v1/implementations/pipeline-v6-f255fad7/verification.json",
+      "bytes": 5835,
+      "sha256": "fb57d520dd9c6c464a2c33494d32e417c216574cefa317299c72d8d490920681"
+    },
+    {
+      "path": "src/financial_table_verifier/pipeline.py",
+      "bytes": 15104,
+      "sha256": "2709223759def48a1022cbab389cbde4e0f45f666a7d3955f82b57709a38ef24"
+    },
+    {
+      "path": "src/financial_table_verifier/prompts.py",
+      "bytes": 4361,
+      "sha256": "6983e7a86ca1c3ba5319e92f733e5d8ce7ea8991cb82e723da81d311e39d1867"
+    },
+    {
+      "path": "src/financial_table_verifier/render.py",
+      "bytes": 1209,
+      "sha256": "1c1226dfaca8fa7c5c4660bf6bd210d9d4b563359ac3b1fd0008818f23a60803"
+    },
+    {
+      "path": "src/financial_table_verifier/schema.py",
+      "bytes": 5606,
+      "sha256": "2be85e5549285f3ca8940a7854a8099c1c1c8c8f0efd89f3e376673a8bf8bb39"
+    },
+    {
+      "path": "src/financial_table_verifier/screen_analysis.py",
+      "bytes": 4231,
+      "sha256": "de9819f093cf5c45961be73af133338ecb357b3bfa6332c9f887a9166ccb7ec1"
+    },
+    {
+      "path": "src/financial_table_verifier/storage.py",
+      "bytes": 1828,
+      "sha256": "a606f923ef16c4b0682a79191b79b9a4c11da4de39f799a7af3eb0851a2901d3"
+    },
+    {
+      "path": "src/financial_table_verifier/summary.py",
+      "bytes": 11139,
+      "sha256": "3ee43f020c5dc6ee116f1f8e04f21c3447d706b4abc06ac388275a4ed29308f6"
+    },
+    {
+      "path": "src/financial_table_verifier/xbrl.py",
+      "bytes": 11131,
+      "sha256": "fa8c64ec20bdd68d616cf59e1eaae588cdd46283974be462fb265060433e27d8"
+    },
+    {
+      "path": "src/financial_table_verifier/xbrl_draft.py",
+      "bytes": 10911,
+      "sha256": "4fd3bc49386f143e45395d1967add3f8d6700daaa0d0d272833266972eb431a7"
+    },
+    {
+      "path": "tests/test_audit_and_sources.py",
+      "bytes": 11433,
+      "sha256": "6a1faa5f5c3275844671aab449e9ea3b94332724296675c06e299618d269146d"
+    },
+    {
+      "path": "tests/test_release.py",
+      "bytes": 6110,
+      "sha256": "62613de377aa5af60ae70b8bc4508655c563b7804bba0cbcd8864c3bc7424e00"
+    },
+    {
+      "path": "tests/test_verifier.py",
+      "bytes": 42828,
+      "sha256": "9bc9213fc4d89dec7572c564374b17d9f03e6049b972f7332803c4779f8c5d79"
+    },
+    {
+      "path": "verification/frozen-paper-tests.log",
+      "bytes": 721,
+      "sha256": "cb015f09ee17c82a2601be30a2e9df5feed948b17072711d498038a049b9fd67"
+    },
+    {
+      "path": "verification/generic-and-release-tests.log",
+      "bytes": 11364,
+      "sha256": "676300267fd4ac2d02921845b73082412076023cbe785369bc05b58286ed64dc"
+    },
+    {
+      "path": "verification/installed-final50-inspection.json",
+      "bytes": 4069,
+      "sha256": "d099f4e73bd6ca27bc7d2ef746e0fdf5c4fb04461ad0522241372a5de9a41f8c"
+    },
+    {
+      "path": "verification/installed-wheel-tests.log",
+      "bytes": 721,
+      "sha256": "fa91d9ae12c75fac00712db862593c496959cde8b6f7f12f9e425d3a101fac31"
+    },
+    {
+      "path": "verification/release-verification-before-publication-docs.json",
+      "bytes": 2850,
+      "sha256": "145095a48c76880f948dc912176a1b5545f2b912d1bb69f8ec18eb049b7d36ad"
+    },
+    {
+      "path": "verification/release-verification.json",
+      "bytes": 2982,
+      "sha256": "7a1d1b31cc7d97f4709d8a2ec1f483d93fd5664d2964df7082177dfaa188d97d"
+    },
+    {
+      "path": "verification/root-independent-release-check.json",
+      "bytes": 1205,
+      "sha256": "67cdb9b8e80da227c2f386b2e99882110b3119d19504ff1f48dda622bf4d7e93"
+    },
+    {
+      "path": "verification/wheel-build.log",
+      "bytes": 1177,
+      "sha256": "e86c03a6892fa111c1cadd28ed6cbb52d1434bf7dc9d582480f338c9b548bf5f"
+    }
+  ]
+}

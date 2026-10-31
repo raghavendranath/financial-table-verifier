@@ -1,0 +1,23 @@
+{
+  "schema": "FTV-root-independent-release-check-v1",
+  "verified_utc": "2026-10-31T02:51:41.105879+00:00",
+  "independent_venv": "/private/tmp/ftv-independent-release-check-v1",
+  "installed_module_verified_in_venv": true,
+  "generic_regression_tests": 85,
+  "frozen_csv_and_scoring_tests": 129,
+  "tests_failed": 0,
+  "final_wheel_reinstalled_and129tests_passed": true,
+  "paper_demo_actual_frozen_runtime_canned_calls": 2,
+  "paid_requests": 0,
+  "saved_full50_report_checksum_and_all12groups_recount": "PASS",
+  "64_frozen_source_files_equal_originals": "PASS",
+  "publication_docs_added": [
+    "CITATION.cff",
+    "PUBLISHING.md",
+    "CI paper-info/paper-tests/paper-demo"
+  ],
+  "final_wheel_only_metadata_record_differs_from_original_independently_tested_wheel": true,
+  "original_tested_wheel_sha256": "e29bd695d72f136120cba72174bbcc6ef6884966df55d070aabec62423cd5443",
+  "final_wheel_sha256": "7cf9a563c81faab6e9d0965d256ab48d54a3b510d18fe27018d5b88cefb669fa",
+  "limits": "Tested research release, not a deployed/certified financial service. One archive-dependent frozen source-contract test excluded from portable suite; actual full50 numerical/provenance checks are separately archived."
+}

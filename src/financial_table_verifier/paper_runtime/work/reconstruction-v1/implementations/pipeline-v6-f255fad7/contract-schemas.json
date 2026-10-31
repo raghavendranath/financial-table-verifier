@@ -1,0 +1,2663 @@
+{
+  "SourceGrid": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "GridCell": {
+        "additionalProperties": false,
+        "properties": {
+          "source_cell_id": {
+            "minLength": 1,
+            "title": "Source Cell Id",
+            "type": "string"
+          },
+          "row": {
+            "minimum": 0,
+            "title": "Row",
+            "type": "integer"
+          },
+          "column": {
+            "minimum": 0,
+            "title": "Column",
+            "type": "integer"
+          },
+          "rowspan": {
+            "minimum": 1,
+            "title": "Rowspan",
+            "type": "integer"
+          },
+          "colspan": {
+            "minimum": 1,
+            "title": "Colspan",
+            "type": "integer"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "header",
+              "data",
+              "blank"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "header_scope": {
+            "anyOf": [
+              {
+                "enum": [
+                  "row",
+                  "column",
+                  "both"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Header Scope"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "source_cell_id",
+          "row",
+          "column",
+          "rowspan",
+          "colspan",
+          "text",
+          "kind",
+          "header_scope"
+        ],
+        "title": "GridCell",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "pdf_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Pdf Sha256",
+        "type": "string"
+      },
+      "page": {
+        "minimum": 1,
+        "title": "Page",
+        "type": "integer"
+      },
+      "image_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Image Sha256",
+        "type": "string"
+      },
+      "dpi": {
+        "maximum": 400,
+        "minimum": 72,
+        "title": "Dpi",
+        "type": "integer"
+      },
+      "table_id": {
+        "minLength": 1,
+        "title": "Table Id",
+        "type": "string"
+      },
+      "box": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Box"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
+      },
+      "row_count": {
+        "maximum": 1000,
+        "minimum": 1,
+        "title": "Row Count",
+        "type": "integer"
+      },
+      "column_count": {
+        "maximum": 100,
+        "minimum": 1,
+        "title": "Column Count",
+        "type": "integer"
+      },
+      "row_sections": {
+        "items": {
+          "enum": [
+            "head",
+            "body"
+          ],
+          "type": "string"
+        },
+        "title": "Row Sections",
+        "type": "array"
+      },
+      "cells": {
+        "items": {
+          "$ref": "#/$defs/GridCell"
+        },
+        "title": "Cells",
+        "type": "array"
+      },
+      "provenance": {
+        "enum": [
+          "source_image_annotation",
+          "new_model_prediction"
+        ],
+        "title": "Provenance",
+        "type": "string"
+      }
+    },
+    "required": [
+      "pdf_sha256",
+      "page",
+      "image_sha256",
+      "dpi",
+      "table_id",
+      "row_count",
+      "column_count",
+      "row_sections",
+      "cells",
+      "provenance"
+    ],
+    "title": "SourceGrid",
+    "type": "object"
+  },
+  "LayoutReference": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "GridCell": {
+        "additionalProperties": false,
+        "properties": {
+          "source_cell_id": {
+            "minLength": 1,
+            "title": "Source Cell Id",
+            "type": "string"
+          },
+          "row": {
+            "minimum": 0,
+            "title": "Row",
+            "type": "integer"
+          },
+          "column": {
+            "minimum": 0,
+            "title": "Column",
+            "type": "integer"
+          },
+          "rowspan": {
+            "minimum": 1,
+            "title": "Rowspan",
+            "type": "integer"
+          },
+          "colspan": {
+            "minimum": 1,
+            "title": "Colspan",
+            "type": "integer"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "header",
+              "data",
+              "blank"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "header_scope": {
+            "anyOf": [
+              {
+                "enum": [
+                  "row",
+                  "column",
+                  "both"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Header Scope"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "source_cell_id",
+          "row",
+          "column",
+          "rowspan",
+          "colspan",
+          "text",
+          "kind",
+          "header_scope"
+        ],
+        "title": "GridCell",
+        "type": "object"
+      },
+      "SourceGrid": {
+        "additionalProperties": false,
+        "properties": {
+          "pdf_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Pdf Sha256",
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "image_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Image Sha256",
+            "type": "string"
+          },
+          "dpi": {
+            "maximum": 400,
+            "minimum": 72,
+            "title": "Dpi",
+            "type": "integer"
+          },
+          "table_id": {
+            "minLength": 1,
+            "title": "Table Id",
+            "type": "string"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "row_count": {
+            "maximum": 1000,
+            "minimum": 1,
+            "title": "Row Count",
+            "type": "integer"
+          },
+          "column_count": {
+            "maximum": 100,
+            "minimum": 1,
+            "title": "Column Count",
+            "type": "integer"
+          },
+          "row_sections": {
+            "items": {
+              "enum": [
+                "head",
+                "body"
+              ],
+              "type": "string"
+            },
+            "title": "Row Sections",
+            "type": "array"
+          },
+          "cells": {
+            "items": {
+              "$ref": "#/$defs/GridCell"
+            },
+            "title": "Cells",
+            "type": "array"
+          },
+          "provenance": {
+            "enum": [
+              "source_image_annotation",
+              "new_model_prediction"
+            ],
+            "title": "Provenance",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pdf_sha256",
+          "page",
+          "image_sha256",
+          "dpi",
+          "table_id",
+          "row_count",
+          "column_count",
+          "row_sections",
+          "cells",
+          "provenance"
+        ],
+        "title": "SourceGrid",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "grid": {
+        "$ref": "#/$defs/SourceGrid"
+      },
+      "annotator": {
+        "minLength": 1,
+        "title": "Annotator",
+        "type": "string"
+      },
+      "reviewer": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Reviewer"
+      },
+      "reviewed": {
+        "default": false,
+        "title": "Reviewed",
+        "type": "boolean"
+      },
+      "annotation_instructions_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Annotation Instructions Sha256",
+        "type": "string"
+      },
+      "prediction_blind": {
+        "default": false,
+        "title": "Prediction Blind",
+        "type": "boolean"
+      },
+      "annotator_kind": {
+        "default": "agent_assisted",
+        "enum": [
+          "agent_assisted",
+          "human"
+        ],
+        "title": "Annotator Kind",
+        "type": "string"
+      },
+      "reviewer_kind": {
+        "default": "agent_assisted",
+        "enum": [
+          "agent_assisted",
+          "human"
+        ],
+        "title": "Reviewer Kind",
+        "type": "string"
+      },
+      "prediction_blind_scope": {
+        "const": "before_new_predictions_only",
+        "default": "before_new_predictions_only",
+        "title": "Prediction Blind Scope",
+        "type": "string"
+      }
+    },
+    "required": [
+      "grid",
+      "annotator",
+      "annotation_instructions_sha256"
+    ],
+    "title": "LayoutReference",
+    "type": "object"
+  },
+  "EPSLedger": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "Fact": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "minLength": 1,
+            "title": "Id",
+            "type": "string"
+          },
+          "raw_value": {
+            "title": "Raw Value",
+            "type": "string"
+          },
+          "quantity": {
+            "enum": [
+              "money",
+              "shares",
+              "per_share"
+            ],
+            "title": "Quantity",
+            "type": "string"
+          },
+          "scale": {
+            "anyOf": [
+              {
+                "exclusiveMinimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scale"
+          },
+          "currency": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Currency"
+          },
+          "scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scope"
+          },
+          "period": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Period"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "instant": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Instant"
+          },
+          "evidence": {
+            "$ref": "#/$defs/SourceEvidence"
+          }
+        },
+        "required": [
+          "id",
+          "raw_value",
+          "quantity",
+          "scale",
+          "currency",
+          "scope",
+          "evidence"
+        ],
+        "title": "Fact",
+        "type": "object"
+      },
+      "Period": {
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "format": "date",
+            "title": "Start",
+            "type": "string"
+          },
+          "end": {
+            "format": "date",
+            "title": "End",
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "title": "Period",
+        "type": "object"
+      },
+      "Review": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "pending",
+              "eligible",
+              "excluded"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "reviewer": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviewer"
+          },
+          "reason": {
+            "minLength": 1,
+            "title": "Reason",
+            "type": "string"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/$defs/SourceEvidence"
+            },
+            "title": "Evidence",
+            "type": "array"
+          },
+          "prediction_blind": {
+            "title": "Prediction Blind",
+            "type": "boolean"
+          },
+          "prediction_blind_scope": {
+            "const": "before_new_reconstruction_outputs_only",
+            "default": "before_new_reconstruction_outputs_only",
+            "title": "Prediction Blind Scope",
+            "type": "string"
+          },
+          "review_kind": {
+            "default": "agent_source_review",
+            "enum": [
+              "agent_source_review",
+              "human_source_review"
+            ],
+            "title": "Review Kind",
+            "type": "string"
+          },
+          "author_reviewed": {
+            "default": false,
+            "title": "Author Reviewed",
+            "type": "boolean"
+          },
+          "independent_human_review": {
+            "default": false,
+            "title": "Independent Human Review",
+            "type": "boolean"
+          },
+          "prior_study_exposure": {
+            "default": "unknown",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ],
+            "title": "Prior Study Exposure",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "reviewer",
+          "reason",
+          "evidence",
+          "prediction_blind"
+        ],
+        "title": "Review",
+        "type": "object"
+      },
+      "SourceEvidence": {
+        "additionalProperties": false,
+        "properties": {
+          "pdf_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Pdf Sha256",
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "quote": {
+            "minLength": 1,
+            "title": "Quote",
+            "type": "string"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "pdf_sha256",
+          "page",
+          "quote"
+        ],
+        "title": "SourceEvidence",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "case_id": {
+        "minLength": 1,
+        "title": "Case Id",
+        "type": "string"
+      },
+      "variant": {
+        "enum": [
+          "basic",
+          "diluted"
+        ],
+        "title": "Variant",
+        "type": "string"
+      },
+      "eligibility": {
+        "$ref": "#/$defs/Review"
+      },
+      "capital_structure": {
+        "enum": [
+          "simple",
+          "complex",
+          "unknown"
+        ],
+        "title": "Capital Structure",
+        "type": "string"
+      },
+      "numerator_basis": {
+        "enum": [
+          "basic_available_common",
+          "diluted_adjusted_available_common",
+          "unreconciled_net_income",
+          "unknown"
+        ],
+        "title": "Numerator Basis",
+        "type": "string"
+      },
+      "denominator_basis": {
+        "enum": [
+          "weighted_average_basic",
+          "weighted_average_diluted",
+          "ending_shares",
+          "unknown"
+        ],
+        "title": "Denominator Basis",
+        "type": "string"
+      },
+      "numerator": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Fact"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "shares": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Fact"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "reported_eps": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Fact"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "scope": {
+        "minLength": 1,
+        "title": "Scope",
+        "type": "string"
+      },
+      "period": {
+        "$ref": "#/$defs/Period"
+      },
+      "currency": {
+        "minLength": 1,
+        "title": "Currency",
+        "type": "string"
+      },
+      "absolute_tolerance": {
+        "anyOf": [
+          {
+            "minimum": 0.0,
+            "type": "number"
+          },
+          {
+            "type": "string"
+          }
+        ],
+        "title": "Absolute Tolerance"
+      },
+      "rounding_policy": {
+        "default": "printed_precision_intervals",
+        "enum": [
+          "point_absolute",
+          "printed_precision_intervals"
+        ],
+        "title": "Rounding Policy",
+        "type": "string"
+      }
+    },
+    "required": [
+      "case_id",
+      "variant",
+      "eligibility",
+      "capital_structure",
+      "numerator_basis",
+      "denominator_basis",
+      "numerator",
+      "shares",
+      "reported_eps",
+      "scope",
+      "period",
+      "currency",
+      "absolute_tolerance"
+    ],
+    "title": "EPSLedger",
+    "type": "object"
+  },
+  "RetainedEarningsLedger": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "Fact": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "minLength": 1,
+            "title": "Id",
+            "type": "string"
+          },
+          "raw_value": {
+            "title": "Raw Value",
+            "type": "string"
+          },
+          "quantity": {
+            "enum": [
+              "money",
+              "shares",
+              "per_share"
+            ],
+            "title": "Quantity",
+            "type": "string"
+          },
+          "scale": {
+            "anyOf": [
+              {
+                "exclusiveMinimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scale"
+          },
+          "currency": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Currency"
+          },
+          "scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scope"
+          },
+          "period": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Period"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "instant": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Instant"
+          },
+          "evidence": {
+            "$ref": "#/$defs/SourceEvidence"
+          }
+        },
+        "required": [
+          "id",
+          "raw_value",
+          "quantity",
+          "scale",
+          "currency",
+          "scope",
+          "evidence"
+        ],
+        "title": "Fact",
+        "type": "object"
+      },
+      "Movement": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "enum": [
+              "net_income",
+              "dividends",
+              "other"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "direction": {
+            "enum": [
+              -1,
+              1
+            ],
+            "title": "Direction",
+            "type": "integer"
+          },
+          "fact": {
+            "$ref": "#/$defs/Fact"
+          }
+        },
+        "required": [
+          "kind",
+          "direction",
+          "fact"
+        ],
+        "title": "Movement",
+        "type": "object"
+      },
+      "Period": {
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "format": "date",
+            "title": "Start",
+            "type": "string"
+          },
+          "end": {
+            "format": "date",
+            "title": "End",
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "title": "Period",
+        "type": "object"
+      },
+      "Review": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "pending",
+              "eligible",
+              "excluded"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "reviewer": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviewer"
+          },
+          "reason": {
+            "minLength": 1,
+            "title": "Reason",
+            "type": "string"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/$defs/SourceEvidence"
+            },
+            "title": "Evidence",
+            "type": "array"
+          },
+          "prediction_blind": {
+            "title": "Prediction Blind",
+            "type": "boolean"
+          },
+          "prediction_blind_scope": {
+            "const": "before_new_reconstruction_outputs_only",
+            "default": "before_new_reconstruction_outputs_only",
+            "title": "Prediction Blind Scope",
+            "type": "string"
+          },
+          "review_kind": {
+            "default": "agent_source_review",
+            "enum": [
+              "agent_source_review",
+              "human_source_review"
+            ],
+            "title": "Review Kind",
+            "type": "string"
+          },
+          "author_reviewed": {
+            "default": false,
+            "title": "Author Reviewed",
+            "type": "boolean"
+          },
+          "independent_human_review": {
+            "default": false,
+            "title": "Independent Human Review",
+            "type": "boolean"
+          },
+          "prior_study_exposure": {
+            "default": "unknown",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ],
+            "title": "Prior Study Exposure",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "reviewer",
+          "reason",
+          "evidence",
+          "prediction_blind"
+        ],
+        "title": "Review",
+        "type": "object"
+      },
+      "SourceEvidence": {
+        "additionalProperties": false,
+        "properties": {
+          "pdf_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Pdf Sha256",
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "quote": {
+            "minLength": 1,
+            "title": "Quote",
+            "type": "string"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "pdf_sha256",
+          "page",
+          "quote"
+        ],
+        "title": "SourceEvidence",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "case_id": {
+        "minLength": 1,
+        "title": "Case Id",
+        "type": "string"
+      },
+      "eligibility": {
+        "$ref": "#/$defs/Review"
+      },
+      "scope": {
+        "minLength": 1,
+        "title": "Scope",
+        "type": "string"
+      },
+      "currency": {
+        "minLength": 1,
+        "title": "Currency",
+        "type": "string"
+      },
+      "period": {
+        "$ref": "#/$defs/Period"
+      },
+      "beginning": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Fact"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "ending": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Fact"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "movements": {
+        "items": {
+          "$ref": "#/$defs/Movement"
+        },
+        "title": "Movements",
+        "type": "array"
+      },
+      "movements_complete": {
+        "title": "Movements Complete",
+        "type": "boolean"
+      },
+      "other_movements_complete": {
+        "title": "Other Movements Complete",
+        "type": "boolean"
+      },
+      "completeness_evidence": {
+        "items": {
+          "$ref": "#/$defs/SourceEvidence"
+        },
+        "title": "Completeness Evidence",
+        "type": "array"
+      },
+      "absolute_tolerance": {
+        "anyOf": [
+          {
+            "minimum": 0.0,
+            "type": "number"
+          },
+          {
+            "type": "string"
+          }
+        ],
+        "title": "Absolute Tolerance"
+      },
+      "dividend_policy": {
+        "default": "reported",
+        "enum": [
+          "reported",
+          "source_verified_absent",
+          "unknown"
+        ],
+        "title": "Dividend Policy",
+        "type": "string"
+      },
+      "dividend_absence_evidence": {
+        "default": [],
+        "items": {
+          "$ref": "#/$defs/SourceEvidence"
+        },
+        "title": "Dividend Absence Evidence",
+        "type": "array"
+      },
+      "dividend_absence_review": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Review"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
+      }
+    },
+    "required": [
+      "case_id",
+      "eligibility",
+      "scope",
+      "currency",
+      "period",
+      "beginning",
+      "ending",
+      "movements",
+      "movements_complete",
+      "other_movements_complete",
+      "completeness_evidence",
+      "absolute_tolerance"
+    ],
+    "title": "RetainedEarningsLedger",
+    "type": "object"
+  },
+  "StageManifest": {
+    "$defs": {
+      "Artifact": {
+        "additionalProperties": false,
+        "properties": {
+          "stage": {
+            "enum": [
+              "structure",
+              "schema",
+              "generated_prompt",
+              "raw_extraction",
+              "audited_cleaning"
+            ],
+            "title": "Stage",
+            "type": "string"
+          },
+          "path": {
+            "minLength": 1,
+            "title": "Path",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Sha256",
+            "type": "string"
+          },
+          "input_sha256": {
+            "items": {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "title": "Input Sha256",
+            "type": "array"
+          },
+          "model_request_sha256": {
+            "anyOf": [
+              {
+                "pattern": "^[0-9a-f]{64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Model Request Sha256"
+          },
+          "raw_response_sha256": {
+            "anyOf": [
+              {
+                "pattern": "^[0-9a-f]{64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Raw Response Sha256"
+          },
+          "request_path": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Request Path"
+          },
+          "response_path": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Response Path"
+          },
+          "procedure_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Procedure Sha256",
+            "type": "string"
+          }
+        },
+        "required": [
+          "stage",
+          "path",
+          "sha256",
+          "input_sha256",
+          "procedure_sha256"
+        ],
+        "title": "Artifact",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "experiment_id": {
+        "minLength": 1,
+        "title": "Experiment Id",
+        "type": "string"
+      },
+      "protocol_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Protocol Sha256",
+        "type": "string"
+      },
+      "source_pdf_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Source Pdf Sha256",
+        "type": "string"
+      },
+      "selection_freeze_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Selection Freeze Sha256",
+        "type": "string"
+      },
+      "development_examples_sha256": {
+        "items": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "title": "Development Examples Sha256",
+        "type": "array"
+      },
+      "development_issuer_ids": {
+        "items": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "title": "Development Issuer Ids",
+        "type": "array"
+      },
+      "evaluation_issuer_id": {
+        "minLength": 1,
+        "title": "Evaluation Issuer Id",
+        "type": "string"
+      },
+      "full_document_page_count": {
+        "title": "Full Document Page Count",
+        "type": "integer"
+      },
+      "structure_reviewed_pages": {
+        "items": {
+          "type": "integer"
+        },
+        "title": "Structure Reviewed Pages",
+        "type": "array"
+      },
+      "generated_schema_validated": {
+        "title": "Generated Schema Validated",
+        "type": "boolean"
+      },
+      "generated_prompt_safety_reviewed": {
+        "title": "Generated Prompt Safety Reviewed",
+        "type": "boolean"
+      },
+      "artifacts": {
+        "items": {
+          "$ref": "#/$defs/Artifact"
+        },
+        "title": "Artifacts",
+        "type": "array"
+      }
+    },
+    "required": [
+      "experiment_id",
+      "protocol_sha256",
+      "source_pdf_sha256",
+      "selection_freeze_sha256",
+      "development_examples_sha256",
+      "development_issuer_ids",
+      "evaluation_issuer_id",
+      "full_document_page_count",
+      "structure_reviewed_pages",
+      "generated_schema_validated",
+      "generated_prompt_safety_reviewed",
+      "artifacts"
+    ],
+    "title": "StageManifest",
+    "type": "object"
+  },
+  "CleaningEdit": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "SourceEvidence": {
+        "additionalProperties": false,
+        "properties": {
+          "pdf_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Pdf Sha256",
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "quote": {
+            "minLength": 1,
+            "title": "Quote",
+            "type": "string"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "pdf_sha256",
+          "page",
+          "quote"
+        ],
+        "title": "SourceEvidence",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "target": {
+        "minLength": 1,
+        "title": "Target",
+        "type": "string"
+      },
+      "field": {
+        "enum": [
+          "role",
+          "path",
+          "column_index"
+        ],
+        "title": "Field",
+        "type": "string"
+      },
+      "before": {
+        "title": "Before"
+      },
+      "after": {
+        "title": "After"
+      },
+      "reason": {
+        "minLength": 1,
+        "title": "Reason",
+        "type": "string"
+      },
+      "evidence": {
+        "$ref": "#/$defs/SourceEvidence"
+      }
+    },
+    "required": [
+      "target",
+      "field",
+      "before",
+      "after",
+      "reason",
+      "evidence"
+    ],
+    "title": "CleaningEdit",
+    "type": "object"
+  },
+  "ReconstructionConfig": {
+    "$defs": {
+      "DevelopmentExample": {
+        "additionalProperties": false,
+        "properties": {
+          "issuer_id": {
+            "minLength": 1,
+            "title": "Issuer Id",
+            "type": "string"
+          },
+          "extraction_path": {
+            "format": "path",
+            "title": "Extraction Path",
+            "type": "string"
+          },
+          "image": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/ImageAsset"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "reviewed": {
+            "title": "Reviewed",
+            "type": "boolean"
+          },
+          "review_kind": {
+            "enum": [
+              "agent_source_review",
+              "human_source_review"
+            ],
+            "title": "Review Kind",
+            "type": "string"
+          }
+        },
+        "required": [
+          "issuer_id",
+          "extraction_path",
+          "reviewed",
+          "review_kind"
+        ],
+        "title": "DevelopmentExample",
+        "type": "object"
+      },
+      "ImageAsset": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "format": "path",
+            "title": "Path",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Sha256",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "title": "ImageAsset",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "experiment_id": {
+        "minLength": 1,
+        "title": "Experiment Id",
+        "type": "string"
+      },
+      "document_id": {
+        "minLength": 1,
+        "title": "Document Id",
+        "type": "string"
+      },
+      "issuer_id": {
+        "minLength": 1,
+        "title": "Issuer Id",
+        "type": "string"
+      },
+      "pdf": {
+        "format": "path",
+        "title": "Pdf",
+        "type": "string"
+      },
+      "pdf_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Pdf Sha256",
+        "type": "string"
+      },
+      "selected_pages": {
+        "items": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "minItems": 1,
+        "title": "Selected Pages",
+        "type": "array"
+      },
+      "structural_pages": {
+        "items": {
+          "type": "integer"
+        },
+        "title": "Structural Pages",
+        "type": "array"
+      },
+      "accounting_pages": {
+        "default": [],
+        "items": {
+          "type": "integer"
+        },
+        "title": "Accounting Pages",
+        "type": "array"
+      },
+      "selected_images": {
+        "additionalProperties": {
+          "$ref": "#/$defs/ImageAsset"
+        },
+        "default": {},
+        "title": "Selected Images",
+        "type": "object"
+      },
+      "preparation_illustrative_pages": {
+        "items": {
+          "type": "integer"
+        },
+        "title": "Preparation Illustrative Pages",
+        "type": "array"
+      },
+      "development_examples": {
+        "default": [],
+        "items": {
+          "$ref": "#/$defs/DevelopmentExample"
+        },
+        "title": "Development Examples",
+        "type": "array"
+      },
+      "model": {
+        "minLength": 1,
+        "title": "Model",
+        "type": "string"
+      },
+      "provider": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Provider"
+      },
+      "preparation_model": {
+        "default": "google/gemini-2.5-pro",
+        "title": "Preparation Model",
+        "type": "string"
+      },
+      "preparation_provider": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": "google-ai-studio",
+        "title": "Preparation Provider"
+      },
+      "condition": {
+        "enum": [
+          "independent",
+          "sequential"
+        ],
+        "title": "Condition",
+        "type": "string"
+      },
+      "repeat": {
+        "default": 1,
+        "minimum": 1,
+        "title": "Repeat",
+        "type": "integer"
+      },
+      "dpi": {
+        "default": 300,
+        "maximum": 400,
+        "minimum": 72,
+        "title": "Dpi",
+        "type": "integer"
+      },
+      "max_image_pixels": {
+        "default": 25000000,
+        "minimum": 100000,
+        "title": "Max Image Pixels",
+        "type": "integer"
+      },
+      "survey_chunk_pages": {
+        "default": 6,
+        "maximum": 12,
+        "minimum": 1,
+        "title": "Survey Chunk Pages",
+        "type": "integer"
+      },
+      "survey_image_format": {
+        "default": "jpeg",
+        "enum": [
+          "png",
+          "jpeg"
+        ],
+        "title": "Survey Image Format",
+        "type": "string"
+      },
+      "survey_jpeg_quality": {
+        "default": 90,
+        "maximum": 100,
+        "minimum": 1,
+        "title": "Survey Jpeg Quality",
+        "type": "integer"
+      },
+      "survey_max_tokens": {
+        "default": 3500,
+        "minimum": 128,
+        "title": "Survey Max Tokens",
+        "type": "integer"
+      },
+      "structure_max_tokens": {
+        "default": 12000,
+        "minimum": 128,
+        "title": "Structure Max Tokens",
+        "type": "integer"
+      },
+      "schema_max_tokens": {
+        "default": 6000,
+        "minimum": 128,
+        "title": "Schema Max Tokens",
+        "type": "integer"
+      },
+      "prompt_max_tokens": {
+        "default": 6000,
+        "minimum": 128,
+        "title": "Prompt Max Tokens",
+        "type": "integer"
+      },
+      "extraction_max_tokens": {
+        "default": 32768,
+        "minimum": 128,
+        "title": "Extraction Max Tokens",
+        "type": "integer"
+      },
+      "reasoning_max_tokens": {
+        "anyOf": [
+          {
+            "minimum": 128,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Reasoning Max Tokens"
+      },
+      "preparation_reasoning_max_tokens": {
+        "anyOf": [
+          {
+            "minimum": 128,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Preparation Reasoning Max Tokens"
+      },
+      "extraction_reasoning_max_tokens": {
+        "anyOf": [
+          {
+            "minimum": 128,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Extraction Reasoning Max Tokens"
+      },
+      "temperature": {
+        "default": 0.0,
+        "maximum": 2,
+        "minimum": 0,
+        "title": "Temperature",
+        "type": "number"
+      },
+      "seed": {
+        "anyOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": 42,
+        "title": "Seed"
+      },
+      "max_context_chars": {
+        "default": 500000,
+        "minimum": 1000,
+        "title": "Max Context Chars",
+        "type": "integer"
+      },
+      "output": {
+        "format": "path",
+        "title": "Output",
+        "type": "string"
+      },
+      "prepared_dir": {
+        "format": "path",
+        "title": "Prepared Dir",
+        "type": "string"
+      },
+      "protocol_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Protocol Sha256",
+        "type": "string"
+      },
+      "selection_freeze_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Selection Freeze Sha256",
+        "type": "string"
+      },
+      "reuse_preparation_from": {
+        "anyOf": [
+          {
+            "format": "path",
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Reuse Preparation From"
+      },
+      "survey_validation_attempts": {
+        "default": 1,
+        "maximum": 2,
+        "minimum": 1,
+        "title": "Survey Validation Attempts",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "experiment_id",
+      "document_id",
+      "issuer_id",
+      "pdf",
+      "pdf_sha256",
+      "selected_pages",
+      "structural_pages",
+      "preparation_illustrative_pages",
+      "model",
+      "condition",
+      "output",
+      "prepared_dir",
+      "protocol_sha256",
+      "selection_freeze_sha256"
+    ],
+    "title": "ReconstructionConfig",
+    "type": "object"
+  },
+  "GeometryPage": {
+    "$defs": {
+      "Box": {
+        "additionalProperties": false,
+        "description": "Normalized physical page coordinates: left/top/right/bottom, origin top-left.",
+        "properties": {
+          "left": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Left",
+            "type": "number"
+          },
+          "top": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Top",
+            "type": "number"
+          },
+          "right": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Right",
+            "type": "number"
+          },
+          "bottom": {
+            "maximum": 1,
+            "minimum": 0,
+            "title": "Bottom",
+            "type": "number"
+          }
+        },
+        "required": [
+          "left",
+          "top",
+          "right",
+          "bottom"
+        ],
+        "title": "Box",
+        "type": "object"
+      },
+      "FinancialCell": {
+        "additionalProperties": false,
+        "properties": {
+          "source_cell_id": {
+            "minLength": 1,
+            "title": "Source Cell Id",
+            "type": "string"
+          },
+          "row": {
+            "minimum": 0,
+            "title": "Row",
+            "type": "integer"
+          },
+          "column": {
+            "minimum": 0,
+            "title": "Column",
+            "type": "integer"
+          },
+          "rowspan": {
+            "minimum": 1,
+            "title": "Rowspan",
+            "type": "integer"
+          },
+          "colspan": {
+            "minimum": 1,
+            "title": "Colspan",
+            "type": "integer"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "header",
+              "data",
+              "blank"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "header_scope": {
+            "anyOf": [
+              {
+                "enum": [
+                  "row",
+                  "column",
+                  "both"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Header Scope"
+          },
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "quantity": {
+            "enum": [
+              "money",
+              "shares",
+              "per_share",
+              "ratio",
+              "unknown"
+            ],
+            "title": "Quantity",
+            "type": "string"
+          },
+          "scale": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "scale is the multiplicative factor 1, 1000, 1000000, or 1000000000, or null when unknown. It is NOT a base-10 exponent: never use 0, 3, 6, or 9 as scale values. Normalize a printed value by multiplying by scale; keep raw_value unchanged. Money and shares have separately source-supported factors; per_share scale is 1.",
+            "title": "Scale"
+          },
+          "currency": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "currency is an explicit uppercase ISO 4217 currency code such as USD, or null when unknown. For quantity shares currency MUST be null; never use Shares as a currency. For quantity per_share use the supported currency code such as USD and scale 1; never use USDperShare, USD/share, or USD per share as currency values.",
+            "title": "Currency"
+          }
+        },
+        "required": [
+          "source_cell_id",
+          "row",
+          "column",
+          "rowspan",
+          "colspan",
+          "text",
+          "kind",
+          "header_scope",
+          "quantity",
+          "scale",
+          "currency"
+        ],
+        "title": "FinancialCell",
+        "type": "object"
+      },
+      "FinancialRow": {
+        "additionalProperties": false,
+        "properties": {
+          "row_index": {
+            "minimum": 0,
+            "title": "Row Index",
+            "type": "integer"
+          },
+          "label_cell_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Label Cell Ids",
+            "type": "array"
+          },
+          "role": {
+            "enum": [
+              "header",
+              "data",
+              "total"
+            ],
+            "title": "Role",
+            "type": "string"
+          },
+          "path": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Path",
+            "type": "array"
+          },
+          "concept": {
+            "anyOf": [
+              {
+                "enum": [
+                  "total_assets",
+                  "total_liabilities",
+                  "total_equity",
+                  "revenue",
+                  "cost_of_revenue",
+                  "gross_profit",
+                  "operating_expenses",
+                  "operating_income",
+                  "income_before_tax",
+                  "income_tax_expense",
+                  "net_income",
+                  "basic_numerator",
+                  "diluted_numerator",
+                  "basic_shares",
+                  "diluted_shares",
+                  "basic_eps",
+                  "diluted_eps",
+                  "cash_beginning",
+                  "cash_ending",
+                  "cash_net_change",
+                  "retained_earnings",
+                  "dividends",
+                  "preferred_dividends",
+                  "other_retained_movement"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Concept"
+          }
+        },
+        "required": [
+          "row_index",
+          "label_cell_ids",
+          "role",
+          "path",
+          "concept"
+        ],
+        "title": "FinancialRow",
+        "type": "object"
+      },
+      "GeometryTable": {
+        "additionalProperties": false,
+        "properties": {
+          "table_index": {
+            "minimum": 0,
+            "title": "Table Index",
+            "type": "integer"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "statement": {
+            "enum": [
+              "balance_sheet",
+              "income_statement",
+              "cash_flow",
+              "eps",
+              "equity",
+              "other"
+            ],
+            "title": "Statement",
+            "type": "string"
+          },
+          "scope": {
+            "title": "Scope",
+            "type": "string"
+          },
+          "continuation_of": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Continuation Of"
+          },
+          "grid": {
+            "$ref": "#/$defs/PhysicalGrid"
+          },
+          "columns": {
+            "items": {
+              "$ref": "#/$defs/NumericColumn"
+            },
+            "title": "Columns",
+            "type": "array"
+          },
+          "rows": {
+            "items": {
+              "$ref": "#/$defs/FinancialRow"
+            },
+            "title": "Rows",
+            "type": "array"
+          }
+        },
+        "required": [
+          "table_index",
+          "title",
+          "statement",
+          "scope",
+          "continuation_of",
+          "grid",
+          "columns",
+          "rows"
+        ],
+        "title": "GeometryTable",
+        "type": "object"
+      },
+      "NumericColumn": {
+        "additionalProperties": false,
+        "properties": {
+          "column_index": {
+            "minimum": 0,
+            "title": "Column Index",
+            "type": "integer"
+          },
+          "grid_column": {
+            "minimum": 0,
+            "title": "Grid Column",
+            "type": "integer"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "period": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Period"
+          }
+        },
+        "required": [
+          "column_index",
+          "grid_column",
+          "label",
+          "period"
+        ],
+        "title": "NumericColumn",
+        "type": "object"
+      },
+      "PhysicalGrid": {
+        "additionalProperties": false,
+        "properties": {
+          "box": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Box"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "row_count": {
+            "maximum": 1000,
+            "minimum": 1,
+            "title": "Row Count",
+            "type": "integer"
+          },
+          "column_count": {
+            "maximum": 100,
+            "minimum": 1,
+            "title": "Column Count",
+            "type": "integer"
+          },
+          "row_sections": {
+            "items": {
+              "enum": [
+                "head",
+                "body"
+              ],
+              "type": "string"
+            },
+            "title": "Row Sections",
+            "type": "array"
+          },
+          "cells": {
+            "items": {
+              "$ref": "#/$defs/FinancialCell"
+            },
+            "title": "Cells",
+            "type": "array"
+          }
+        },
+        "required": [
+          "row_count",
+          "column_count",
+          "row_sections",
+          "cells"
+        ],
+        "title": "PhysicalGrid",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "page": {
+        "minimum": 1,
+        "title": "Page",
+        "type": "integer"
+      },
+      "tables": {
+        "items": {
+          "$ref": "#/$defs/GeometryTable"
+        },
+        "title": "Tables",
+        "type": "array"
+      }
+    },
+    "required": [
+      "page",
+      "tables"
+    ],
+    "title": "GeometryPage",
+    "type": "object"
+  },
+  "SchemaPlan": {
+    "$defs": {
+      "CSVColumnDefinition": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "enum": [
+              "row_label",
+              "ancestor_path",
+              "row_role",
+              "period",
+              "raw_value",
+              "quantity",
+              "scale",
+              "currency",
+              "concept"
+            ],
+            "title": "Name",
+            "type": "string"
+          },
+          "data_type": {
+            "enum": [
+              "string",
+              "string_array",
+              "integer_or_null"
+            ],
+            "title": "Data Type",
+            "type": "string"
+          },
+          "description": {
+            "minLength": 1,
+            "title": "Description",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "data_type",
+          "description"
+        ],
+        "title": "CSVColumnDefinition",
+        "type": "object"
+      },
+      "TableArchetype": {
+        "additionalProperties": false,
+        "properties": {
+          "statement": {
+            "enum": [
+              "balance_sheet",
+              "income_statement",
+              "cash_flow",
+              "eps",
+              "equity",
+              "other"
+            ],
+            "title": "Statement",
+            "type": "string"
+          },
+          "csv_columns": {
+            "items": {
+              "$ref": "#/$defs/CSVColumnDefinition"
+            },
+            "title": "Csv Columns",
+            "type": "array"
+          },
+          "supported_concepts": {
+            "items": {
+              "enum": [
+                "total_assets",
+                "total_liabilities",
+                "total_equity",
+                "revenue",
+                "cost_of_revenue",
+                "gross_profit",
+                "operating_expenses",
+                "operating_income",
+                "income_before_tax",
+                "income_tax_expense",
+                "net_income",
+                "basic_numerator",
+                "diluted_numerator",
+                "basic_shares",
+                "diluted_shares",
+                "basic_eps",
+                "diluted_eps",
+                "cash_beginning",
+                "cash_ending",
+                "cash_net_change",
+                "retained_earnings",
+                "dividends",
+                "preferred_dividends",
+                "other_retained_movement"
+              ],
+              "type": "string"
+            },
+            "title": "Supported Concepts",
+            "type": "array"
+          },
+          "source_number_format_rules": {
+            "minLength": 1,
+            "title": "Source Number Format Rules",
+            "type": "string"
+          },
+          "hierarchy_rules": {
+            "minLength": 1,
+            "title": "Hierarchy Rules",
+            "type": "string"
+          }
+        },
+        "required": [
+          "statement",
+          "csv_columns",
+          "supported_concepts",
+          "source_number_format_rules",
+          "hierarchy_rules"
+        ],
+        "title": "TableArchetype",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "archetypes": {
+        "items": {
+          "$ref": "#/$defs/TableArchetype"
+        },
+        "minItems": 1,
+        "title": "Archetypes",
+        "type": "array"
+      },
+      "geometry_contract_acknowledged": {
+        "const": true,
+        "title": "Geometry Contract Acknowledged",
+        "type": "boolean"
+      },
+      "no_numeric_repair": {
+        "const": true,
+        "title": "No Numeric Repair",
+        "type": "boolean"
+      },
+      "unit_contract_version": {
+        "title": "Unit Contract Version",
+        "type": "string"
+      }
+    },
+    "required": [
+      "archetypes",
+      "geometry_contract_acknowledged",
+      "no_numeric_repair",
+      "unit_contract_version"
+    ],
+    "title": "SchemaPlan",
+    "type": "object"
+  },
+  "GeneratedPrompt": {
+    "additionalProperties": false,
+    "properties": {
+      "instructions": {
+        "minLength": 1,
+        "title": "Instructions",
+        "type": "string"
+      },
+      "source_only": {
+        "const": true,
+        "title": "Source Only",
+        "type": "boolean"
+      },
+      "changes_numbers_allowed": {
+        "const": false,
+        "title": "Changes Numbers Allowed",
+        "type": "boolean"
+      },
+      "schema_plan_sha256": {
+        "pattern": "^[a-f0-9]{64}$",
+        "title": "Schema Plan Sha256",
+        "type": "string"
+      },
+      "unit_contract_version": {
+        "title": "Unit Contract Version",
+        "type": "string"
+      },
+      "unit_policy": {
+        "title": "Unit Policy",
+        "type": "string"
+      }
+    },
+    "required": [
+      "instructions",
+      "source_only",
+      "changes_numbers_allowed",
+      "schema_plan_sha256",
+      "unit_contract_version",
+      "unit_policy"
+    ],
+    "title": "GeneratedPrompt",
+    "type": "object"
+  }
+}

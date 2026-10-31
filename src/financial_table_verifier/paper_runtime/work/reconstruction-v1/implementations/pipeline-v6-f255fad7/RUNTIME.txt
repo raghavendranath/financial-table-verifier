@@ -1,0 +1,216 @@
+Actual staged reconstruction runtime
+
+Frozen Python procedure SHA256:
+f255fad79eccfc9f941457a9e1821ff0e326ad8b890cb2319a7ac6c80513be7b
+54 unique unit/integration tests pass without model/network calls.
+V5 was built in isolation while active development remained V4. ExactV4 is archived
+at implementations/pipeline-v4-63de9be5 with byte-verified preservation receipt.
+The exact earlier479bf0f8 implementation was copied and byte-verified BEFORE any
+revision to implementations/pipeline-v1-479bf0f8, including preservation receipt.
+The exact V2e62953c9 source was separately copied and byte-verified BEFORE V3
+changes at implementations/pipeline-v2-e62953c9. V3 repairs an excluded-development
+schema-unit-definition defect before main extraction; rejected output is preserved.
+Real Escalade p41 render at300DPI also matches the reference PNG bytes exactly:
+01bcf2a778666fa7141e47a1633a3ea574956a7d803703f218c1014cabfbe4da.
+
+Python API, caller owns authenticated additive-budget transport:
+  config = ReconstructionConfig.model_validate(json_config)
+  prepared = prepare_document(config, preparation_transport)
+  result = extract_document(config, prepared, extraction_transport)
+or run_reconstruction(config, transport).
+
+The SAME prepared_dir and preparation settings are used for all three extractors
+and both contexts. Reuse checks PDF/procedure/DPI/examples/generator/settings and
+every preserved preparation artifact byte. A common Gemini generator is a declared
+new design choice, not a recovered detail of the missing original experiment.
+
+CLI (from workspace root):
+  PYTHONPATH=work/reconstruction-v1/development/src:CALLER_MODULE_DIRECTORY \
+    /Users/raghav/Desktop/Workspace/financial-table-verifier/.venv/bin/python -B \
+    -m ftv_reconstruction prepare CONFIG.json --transport-factory MODULE:factory
+Use extract for prepared documents, or run for both. factory(config,phase) returns
+the caller's transport, request(method,path,payload); phase is prepare or extract.
+No default transport or credential loading exists. `schemas` exports all contracts.
+example-config.template.json is a template, not a live frozen protocol.
+
+Actual stages and preserved evidence
+1. Full-PDF image survey, fixed chunks, EVERY physical page including non-table
+   pages. Each response must cover supplied physical pages exactly once in order.
+   Predeclared selected PNG bytes are hash-checked and reused. No native PDF text,
+   XBRL or expected answers enter model requests.
+   Version2 adds survey_image_format=jpeg|png (defaultjpeg), survey_jpeg_quality90.
+   JPEG uses full300DPI rendered resolution, RGB, subsampling2, optimizefalse and
+   progressivefalse. Actual JPEG payload bytes are saved under survey-images and
+   bound to source PNG hashes; MIME/dataURL bytes and hashes are tested exactly.
+   Extraction and illustrative pages remain canonical PNGs. JPEG is not assumed
+   smaller: local failed Escalade six-page chunk13 measured10,093,754JPEG JSONbytes
+   versus7,044,832PNG bytes. Parent protocol chooses smaller page chunks separately.
+   This change preceded any new extraction/scoring outcome; V1attempts preserved.
+2. A real model consolidates survey results: reviewed_pages lists the whole PDF;
+   table_locations compactly summarizes relevant table pages.
+3. A real model generates CSV archetypes, lossless field descriptions, supported
+   concepts and document-specific number/hierarchy rules. These ACTUALLY constrain
+   compiled extraction response schema and per-archetype postvalidation.
+4. A real model generates the extraction prompt from structure, generated schemas,
+   illustrative source images and reviewed development-only examples if supplied.
+   The generated instructions ACTUALLY enter every extraction payload. If examples
+   are absent, no manually corrected few-shot benefit is claimed. Immutable source-
+   only/geometry instructions have priority. Automatic lexical numeric repair/fill
+   lint is recorded, human_reviewed=false; lint is not proof of semantic safety.
+5. Actual selected-page geometry extraction preserves all physical cells/spans/
+   blanks/headers/labels, rows/paths/roles, periods/units/scope and canonical concepts.
+   Boxes are optional, never invented. Sequential context includes only immediately
+   adjacent ACCEPTED source pages. Independent mode/gaps/rejections reset context.
+6. Preserve raw geometry/logical/numeric outputs, then actually run deterministic
+   source-label role classification and unique physical-column alignment. Every
+   edit is audited; source amounts/totals/labels/metadata/order/ownership remain
+   unchanged. No accounting-based repair, invented indentation path or better-score
+   output selection occurs. Both raw and cleaned endpoints remain available.
+
+prepared_dir contains snapshot.json, survey/chunk-N/{request,response,call,parsed}
+.json, and analogous structure/schema/generated-prompt call directories;
+survey.json,structure.json,generated-schema-plan.json,compiled-extraction-schema.json,
+generated-prompt.json,generated-prompt-safety-audit.json and hashed prepared.json.
+All survey PNGs and actual raw request/response bytes are preserved.
+
+Extraction output contains run.json; pages/pNNNN/{request,response,call,parsed}.json;
+possible rejection.json; accepted raw-geometry.json,canonical-grids.json,
+raw-logical.json,clean-logical.json,cleaning-edits.json,cleaning-audit.json,
+raw-records.json,clean-records.json,page-record.json. results.json lists all requested,
+accepted/rejected pages and raw_records/clean_records. complete means all requested
+pages attempted; has_rejected_pages remains explicit, not all accepted. Structural
+and accounting endpoint page lists remain separately declared.
+
+Calls are single-attempt here; the injected transport owns any independently
+audited safe retry. Request is saved BEFORE sending and raw response BEFORE parsing.
+Preserved responses replay without additional calls only if hashes match. A saved
+pending/failed request without response cannot be automatically reissued; explicit
+new-version/reconciliation is required. Invalid pages remain missing predictions
+and reset context. Prep failures stop downstream work. Transport/budget exceptions
+terminate with failed status and preserve evidence. Known charges and unknown
+reserves are owned by the parent's additive ledger, not guessed in this package.
+
+Reasoning is emitted ONLY for google/gemini models, never Llama or Mistral.
+Preparation/extraction reasoning are separately configurable. Context pairs must
+match per-extractor settings; preparation settings must match all extractor configs.
+
+Accounting updates: EPS can use printed-precision numerator/share quotient intervals
+and reported-EPS intervals; missing units/period/scope/bases skip. RE supports explicit
+reviewed dividend absence, never inferred zero, and complete other movements. Reviews
+disclose agent/human status, author/independent-human flags and prior exposure, with
+blindness scoped to new reconstruction outputs. Source-reference arithmetic and
+prediction-substituted results must remain separate. Source expected_metadata must
+never fill candidate units/period/scope. Arithmetic remains consistency, not truth.
+
+Tests:
+  PYTHONPATH=work/reconstruction-v1/development/src \
+    /Users/raghav/Desktop/Workspace/financial-table-verifier/.venv/bin/python -B \
+    -m unittest discover -s work/reconstruction-v1/development/tests -v
+
+Live runner, budget ledger, protocol freezes, source annotation receipts and official
+TEDS implementation are managed outside development by the parent task. This agent
+made zero live requests and changed no historical study/release files.
+
+V3 prospective unit-definition and cache-import contract
+Generated CSV scale and currency field descriptions MUST exactly preserve the
+immutable definitions in units.py. scale is a multiplicative factor1/1000/1e6/1e9
+or unknown, NEVER exponent0/3/6/9. Currency is a supported uppercase3letterISOcode;
+shares use null, per_share uses the supported currency code and scale1. Both schema
+and generated prompt acknowledge the unit-contract version; prompt's structured
+unit_policy copies exact text. Contradictory prose is rejected automatically.
+Compiled response field descriptions repeat these semantics without integer enums.
+No3→1000 postprocessing or changed source value exists.
+
+Generic physical serialization instructions match reference conventions: currency
+glyphs group with adjacent amounts, title/unit captions/prose are table metadata,
+unprinted spacers are omitted, wrapped text joins within one cell, shading alone
+does not imply spans, and financial section headings stay body rows.
+
+reuse_preparation_from optionally points at a preserved V2prepared directory.
+Only its verified SURVEY/STRUCTURE stages can be imported; new schema/prompt calls
+are always required. Source PDF,DPI,seed,generator/provider,image settings,examples,
+selection and unchanged stage limits must agree. The original V2implementation
+receipt is verified; actual request/response byte+canonical hashes and reconstructed
+payload/schema must match. Original survey-object serialization is reused for the
+structure request only after decoded-object equality. Old files are never written.
+New import-origin.json files and prepared.imported_artifacts bind origin paths/hashes;
+cache reuse checks those files again. Imported calls remain billed at their original
+origin, not new model calls. All historical raw artifacts remain in place.
+
+survey_validation_attempts is explicitly1or2. A known invalid survey-stage response
+may consume one of at most2 identical-payload validation attempts; raw responses and
+rejections are retained under attempt-NN. An imported invalid response consumes the
+first attempt. This is limited to the survey, never numeric extraction. Unknown or
+transport outcomes are not automatically retried here. A prior known ConnectError
+is reusable only after original request fingerprints and exact payload also match;
+caller budget transport still owns billing/reconciliation and safe transport retry.
+
+V4 bounded narrative-definition equivalence
+ExactV3 was preserved at implementations/pipeline-v3-efdce100 BEFORE edits.
+An excluded-development schema exposed semantically identical definitions beginning
+"The multiplicative..." and "An explicit..." instead of "scale is the..." and
+"currency is an...". V4 permits only NFKC/whitespace/case normalization plus optional
+leading field-name/copula and a/an/the. The substantive remainder must still match.
+GeneratedPrompt.unit_policy uses the same bounded two-definition comparison.
+Model text is preserved, not rewritten. Exponentdefinitions and changed unit factors
+remain rejected; no cell value/sign/scale changes or output repair exists.
+prompts.py is byte-identical toV3; SchemaPlan/GeneratedPrompt/GeometryPage JSONschemas
+are exactly unchanged. Thus actualV3schema requests/responses can be copied into a
+newV4directory without rejection/parsed derivatives and replayed with the repaired
+validator after exact payload/hash checks. Old artifacts remain unchanged.
+
+FinalV4 output-contract clarification before main extraction: compiled extraction
+schema forces PhysicalGrid.box and FinancialCell.box to null. Pixel localization
+was not part of the original CSV method and is not evaluated here; predicting it
+would waste tokens or reject a page for an irrelevant box overlap. Source reference
+boxes remain unchanged. All physical rows/columns/cells/text/spans and all metric
+targets remain required and measured. Metastage prompt strings and response schemas
+are unchanged, preserving exact cache compatibility. No further features added.
+
+V5 prospectively simplified model wire, excluded-development calibration only
+The model does NOT predict redundant table_index,row_count,column_count,row_sections
+or cell kind. Internal table IDs derive from array order; dimensions derive ONLY
+max(row+rowspan,column+colspan) over emitted cells. Header bands derive ONLY from
+model header_scope column/both on the contiguous leading band. Empty text means
+blank/nullscope; nonempty scoped text means header; otherwise data. No holes are
+filled, cells added, coordinates/spans shifted, numeric-column mappings corrected,
+or amount/label/scale/currency changed. DuplicateIDs,missingcells,overlaps,badcolumn
+mapping,missing BODYmetadata and numeric-data labelrefs still fail.
+Semantic metadata is required for every BODYrow. Missing leading column-header
+metadata alone receives default unknown/header placeholders, without changing any
+cell or body row. Explicit nonnumeric section-label cells may span numeric-column
+positions. All financial body roles/paths/concepts/label references remain emitted.
+
+normalization.normalize_geometry(raw_model_object) is the SINGLE model-only adapter.
+GeometryPage's before-validator calls it, so actual-response parsing in pipeline
+and scorer replay uses identical normalization. _call preserves raw server bytes
+and writes model-normalization-audit.json binding rawresponse file/JSON/content hashes,
+derived metadata and unchanged-cell/body payload hashes, plus canonical validation.
+Canonical input that contradicts its derived metadata is rejected, not silently
+repaired. V4failedresponses are preserved and remain failed under their original
+contract; regression fixtures remove only the prospectively omitted metadata to
+test V5, never rewrite an old experiment or compare numeric values against gold.
+
+Only GEOMETRY and GENERATE_PROMPT changed for this wire choice. SOURCE_ONLY,SURVEY,
+STRUCTURE,SCHEMA remain byte-identical text. Survey/structure reuse remains verified;
+old model-generated CSV schemas remain compatible. New generated prompts/extraction
+payloads must use the V5 protocol. contract-schemas.json contains INTERNAL canonical
+Pydantic contracts; actual MODEL wire is generated_extraction_schema(plan), which
+removes the five redundant fields while retaining every physical cell/span/text.
+Malformed required JSON shape (missing grid/rows etc.) is classified as ValueError
+schema rejection rather than an uncaught KeyError/IndexError/AttributeError. This
+does not accept or repair malformed data. Separate-agent adversarial normalization
+and actual-response replay audit passed8tests before activation.
+
+V6 minimal prospective logical-column ordinal derivation
+ExactV5 was preserved at implementations/pipeline-v5-02171e03 BEFORE edits.
+The model wire now also omits NumericColumn.column_index. Internal zero-based
+logical ordinals derive ONLY from columns-array order. Supplied canonical ordinals
+that contradict that order reject; they are not rewritten. Physical grid_column,
+column labels/periods and every model cell/coordinate/span/text/unit/body field
+remain unchanged. Explicit normalization audit records each raw array position,
+derived logical ordinal, untouched grid_column and the protected column-payload
+hash. Invalid/outside/duplicate physical column mappings still fail.
+Only minimal GEOMETRY guidance and the compiled extraction wire change. Source,
+survey,structure,generatedCSVschema inputs and all score logic are unchanged.
+Generated statement/concept compatibility remains enforced; no failure is waived.
